@@ -7,7 +7,7 @@ tags: ['all', 'kjv', 'love']
 
 For all the law is fulfilled in one word, even in this; Thou shalt love thy neighbour as thyself
 
-![<span>Photo by <a href="https://unsplash.com/@mayurgala?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Mayur Gala</a> on <a href="https://unsplash.com/s/photos/love?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></span>](http://guanyc.com/wp-content/uploads/2020/09/mayur-gala-2PODhmrvLik-unsplash-780x520.jpg)
+![<span>Photo by <a href="https://unsplash.com/@mayurgala?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Mayur Gala</a> on <a href="https://unsplash.com/s/photos/love?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></span>](/images/mayur-gala-2PODhmrvLik-unsplash.jpg)
 
 Photo by [Mayur Gala](https://unsplash.com/@mayurgala?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/love?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 
