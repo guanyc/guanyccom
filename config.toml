@@ -1,4 +1,4 @@
-baseURL = "http://guanyc.com/"
+baseURL = "guanyc.com"
 title = "guanyc"
 theme = "ananke"
 
@@ -26,7 +26,7 @@ SectionPagesMenu = "main"
   url = "https://andbible.com"
 
 Paginate = 5 # this is set low for demonstrating with dummy content. Set to a higher number
-googleAnalytics = ""
+googleAnalytics = "UA-36598421-2"
 enableRobotsTXT = true
 
 #[languages]
