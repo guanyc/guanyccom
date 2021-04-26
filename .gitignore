@@ -1,0 +1,15 @@
+.DS_STORE
+public/
+
+.bin/node_modules/
+/node_modules/
+src/node_modules/
+exampleSite/node_modules/
+src/npm-debug.log.*
+npm-debug.log
+/npm-debug.log*
+/dist/
+/src/client.config.json
+/styleguide/
+/docs/
+

@@ -1,0 +1,65 @@
+baseURL = "http://guanyc.com/"
+title = "guanyc"
+theme = "ananke"
+
+languageCode = "en"
+defaultContentLanguage = "en-us"
+
+
+SectionPagesMenu = "main"
+
+[[menu.main]]             # config your menu              # 配置目录
+  name = "Home"
+  weight = 10
+  identifier = "home"
+  url = "/"
+[[menu.main]]
+  name = "Blog"
+  weight = 20
+  identifier = "blog"
+  url = "/posts/"
+
+[[menu.main]]
+  name = "Hugo"
+  weight = 30
+  identifier = "tags"
+  url = "https://andbible.com"
+
+Paginate = 5 # this is set low for demonstrating with dummy content. Set to a higher number
+googleAnalytics = ""
+enableRobotsTXT = true
+
+#[languages]
+#  [languages.en]
+#    title = "My blog"
+#    weight = 1
+#    contentDir = "content/en"
+#  [languages.fr]
+#    title = "Mon blogue"
+#    weight = 2
+#    contentDir = "content/fr"
+
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.5
+  #filename = "sitemap.xml"
+
+[params]
+  favicon = ""
+  site_logo = ""
+  #description = "The last theme you'll ever need. Maybe."
+  facebook = ""
+  twitter = ""
+  instagram = ""
+  youtube = ""
+  github = "guanyc"
+  gitlab = ""
+  linkedin = ""
+  mastodon = ""
+  slack = ""
+  stackoverflow = ""
+  rss = ""
+  # choose a background color from any on this page: http://tachyons.io/docs/themes/skins/ and preface it with "bg-"
+  background_color_class = "bg-black"
+  featured_image = "images/meng-ji-8BH_M-53CyA-unsplash.jpg"
+  recent_posts_number = 4
