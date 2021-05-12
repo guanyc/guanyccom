@@ -25,7 +25,7 @@ SectionPagesMenu = "main"
   identifier = "tags"
   url = "https://andbible.com"
 
-Paginate = 5 # this is set low for demonstrating with dummy content. Set to a higher number
+Paginate = 20 # this is set low for demonstrating with dummy content. Set to a higher number
 googleAnalytics = "UA-36598421-2"
 enableRobotsTXT = true
 
