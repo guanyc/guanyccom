@@ -1,6 +1,6 @@
 baseURL = "https://www.guanyc.com"
 title = "guanyc"
-theme = "ananke"
+theme = "ananke2"
 
 languageCode = "en"
 defaultContentLanguage = "en-us"

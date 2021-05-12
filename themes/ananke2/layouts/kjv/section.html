@@ -1,0 +1,37 @@
+{{ define "main" }}
+  <article class="pa3 pa5-ns nested-copy-line-height nested-img">
+
+    <section class="   cf ph4 ph6-l pv4 pv5-l f3 tc-l center measure-wide lh-copy mid-gray">
+      {{- .Content -}}
+    </section>
+
+    <section class="flex-ns flex-wrap justify-around mt2">
+
+      {{ with .Sections }}
+         {{ range . }}
+         <div class="relative w-100 w-25-l mb1 bg-white">
+           {{- partial "summary-kjv.html" . -}}
+         </div>
+         {{ end }}
+      {{ else }}
+
+      <div class="relative w-100 w-100-l mb1 . ">
+          <a href="/kjv" class="f6 mv4 dib tracked">   KJV  </a>
+      </div>
+
+        </div>
+
+        {{ range .Pages }}
+          <div class="relative w-100 w-25-l mb1 bg-white">
+            {{- partial "summary-book.html" . -}}
+          </div>
+        {{ end }}
+
+      {{ end }}
+
+
+    </section>
+
+
+  </article>
+{{ end }}
