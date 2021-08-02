@@ -4,12 +4,13 @@ date: Tue, 08 Sep 2020 12:20:28 +0000
 draft: false
 tags: ['all']
 aliases: [/android-apps/]
+Author: [guanyc]
 
 ---
 
 [KJV Bible online](/kjv)
 
-I developed the KJV android bible in 2009,
+I developed the [KJV android bible](https://play.google.com/store/apps/details?id=com.gyc.ace.kjv) in 2009,
 
 made some updates intermittently in the years.
 

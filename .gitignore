@@ -1,6 +1,11 @@
 .DS_STORE
 public/
-
+node_modules/
+.DS_Store
+/public
+nohup.out
+.DS_Store
+trace.out
 .bin/node_modules/
 /node_modules/
 src/node_modules/
@@ -12,4 +17,3 @@ npm-debug.log
 /src/client.config.json
 /styleguide/
 /docs/
-

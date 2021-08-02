@@ -3,6 +3,7 @@ title: 'The longest verse'
 date: Mon, 07 Sep 2020 13:33:41 +0000
 draft: false
 tags: ['all']
+Author: [guanyc]
 ---
 
 the 13612th verse of the full KJV bible

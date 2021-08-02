@@ -3,6 +3,7 @@ title: 'Love'
 date: Tue, 08 Sep 2020 00:59:03 +0000
 draft: false
 tags: ['all', 'kjv', 'love']
+Author: [guanyc]
 ---
 
 For all the law is fulfilled in one word, even in this; Thou shalt love thy neighbour as thyself

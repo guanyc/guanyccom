@@ -9,7 +9,7 @@
 
       {{ with .Sections }}
          {{ range . }}
-         <div class="relative w-100 w-25-l mb1 bg-white">
+         <div class="relative w-100 w-20-l mb1 bg-white">
            {{- partial "summary-kjv.html" . -}}
          </div>
          {{ end }}
@@ -22,7 +22,7 @@
         </div>
 
         {{ range .Pages }}
-          <div class="relative w-100 w-25-l mb1 bg-white">
+          <div class="relative w-100 w-20-l mb1 bg-white">
             {{- partial "summary-book.html" . -}}
           </div>
         {{ end }}

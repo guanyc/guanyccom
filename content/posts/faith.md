@@ -3,6 +3,7 @@ title: 'Faith'
 date: Mon, 07 Sep 2020 00:12:00 +0000
 draft: false
 tags: ['all']
+Author: [guanyc]
 ---
 
 And now abideth faith, hope, charity, these three; but the greatest of these is charity.

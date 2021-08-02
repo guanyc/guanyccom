@@ -3,6 +3,7 @@ title: 'Starting Verses'
 date: Sun, 20 Sep 2020 23:53:50 +0000
 draft: false
 tags: ['all']
+Author: [guanyc]
 ---
 
 In the beginning God created the heaven and the earth.|1|1|1

@@ -3,6 +3,7 @@ title: '''Charity'' in KJV Bible'
 date: Wed, 09 Sep 2020 00:06:16 +0000
 draft: false
 tags: ['all', 'charity']
+Author: [guanyc]
 ---
 
 Photo by [British Library](https://unsplash.com/@britishlibrary?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/charity?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)

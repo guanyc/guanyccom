@@ -16,10 +16,12 @@
       </aside>
       {{ partial "social-share.html" . }}
 
-      <!-- TODO add links for whole bible, book, chapter-->
 
-      <a href="/kjv" class="f6 mv4 dib tracked">   KJV  </a>
-      <a href="/kjv/{{- .CurrentSection.Title|urlize -}}"  class="f6 mv4 dib tracked"> {{- .CurrentSection.Title | markdownify -}}</a>
+      <div class="relative w-200 w-250-l mb2 . ">
+          <a href="/kjv" class="f2 mv4 dib tracked">   KJV  </a>
+          <a href="/kjv/{{- .CurrentSection.Title|urlize -}}"  class="f2 mv4 dib tracked"> {{- .CurrentSection.Title | markdownify -}}</a>
+      </div>
+
 
       <h2 class="f1 athelas mt3 mb1">
         {{- .Title -}}
