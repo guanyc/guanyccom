@@ -8,7 +8,11 @@ Author: [guanyc]
 
 ---
 
-[KJV Bible online](/kjv)
+###############################
+
+[KJV Bible on this site](/kjv)
+
+###############################
 
 I developed the [KJV android bible](https://play.google.com/store/apps/details?id=com.gyc.ace.kjv) in 2009,
 
@@ -154,4 +158,4 @@ Thank you!  especially for visiting here
 
 Any questions? or suggestions,
 
-please contact me at **[yc.guan@guanyc.com](mailto:yc.guan@guanyc.com)**
+please contact me at **[yc.guan@gmail.com](mailto:yc.guan@gmail.com)**
