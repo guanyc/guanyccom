@@ -9,4 +9,5 @@ aliases: ["/privacy"]
 
 ---
 
-We will not acquire and store any infos from your phones except  Google adsense/admob sdk will track your urls and taps.
+We will not acquire and store any infos from your phones
+except  Google adsense/admob sdk may track your taps.

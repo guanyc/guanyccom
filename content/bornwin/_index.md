@@ -3,8 +3,8 @@ title: Born Win Stock targets selection recording application for android
 title: 'Born to Win'
 date: Tue, 05 June 2024 12:20:28 +0000
 draft: false
-tags: ['all']
-aliases: [/android-apps/]
+tags: ['all','bornwin']
+aliases: [/born-win/]
 Author: [guanyc]
 ---
 
@@ -27,7 +27,6 @@ that are the reasons why the code is selected, and what actions to do with the m
 
 ### select some stock codes which satisfy your system and take note of them
 
-
 ### the next day or later, complete the notes
 
 ### have some analysis
@@ -35,7 +34,4 @@ that are the reasons why the code is selected, and what actions to do with the m
 in all, the app provides something
 helpful in the process "Plan your trade, trade your plan"(计划你的交易, 交易你的计划)
 
-## project roadmap
-TBD
 ## features
-TBD
