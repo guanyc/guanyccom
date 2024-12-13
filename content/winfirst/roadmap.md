@@ -1,9 +1,10 @@
 ---
-title: Born Win Stock targets selection recording application for android
-title: 'Born to Win roadmap'
-date: Tue, 06 June 2024 12:20:28 +0000
+title: Win First Stock targets selection recording application for android
+title: 'Win First roadmap'
+
+date: Tue, 08 Sep 2020 12:20:28 +0000
 draft: false
-tags: ['all','bornwin',]
+tags: ['all','winfirst',]
 Author: [guanyc]
 ---
 

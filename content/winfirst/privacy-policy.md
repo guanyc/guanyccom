@@ -1,13 +1,14 @@
 ---
-title: Born Win android application privacy policy
-title: 'Born to Win'
-date:  05 June 2024
+title: Win First android application privacy policy
+title: 'Win First Privacy Policy'
+date: Tue, 08 Sep 2020 12:20:28 +0000
+
 draft: false
-tags: ['all','bornwin']
+tags: ['all','WinFirst']
 Author: [guanyc]
 ---
 
-The Born to Win stock targets selecting notes-taking application provides
+The Win First stock targets selecting notes-taking application provides
 some stock markets targets selection notes-taking and data analysis funtions.
 
 [Born Win](https://play.google.com/store/apps/details?id=com.guanyc.stock.discipline)

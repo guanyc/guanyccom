@@ -1,19 +1,18 @@
 ---
-title: Born Win Stock targets selection recording application for android
-title: 'Born to Win'
-date: Tue, 05 June 2024 12:20:28 +0000
+title: Win First Stock targets selection recording application for android
+title: 'Win First'
+date: Tue, 08 Sep 2024 12:20:28 +0000
 draft: false
-tags: ['all','bornwin']
-aliases: [/born-win/]
+tags: ['all','win', 'first']
+aliases: [/bornwin/]
 Author: [guanyc]
 ---
 
-The Born to Win stock targets selecting notes-taking application provides
+The WinFisrt stock targets selecting notes-taking application provides
 some stock markets targets selection notes-taking and data analysis funtions.
 
-![bornwin](/images/bornwin/win_first.webp)
+{{< figure src="/images/winfirst/win_first.webp" height="50%" width="50%" link="">}}
 
-<del>``Born Win``</del>
 
 It is named after an Chinese verse
 "是故胜兵先胜而后求战，败兵先战而后求胜"
@@ -39,20 +38,22 @@ helpful in the process "Plan your trade, trade your plan"(计划你的交易, �
 
 ## features
 
-{{< figure src="/images/bornwin/1.png" height="50%" width="50%" link="">}}
+{{< figure src="/images/winfirst/1.png" height="50%" width="50%" link="">}}
 
-{{< figure src="/images/bornwin/2.png" height="50%" width="50%" link="">}}
+{{< figure src="/images/winfirst/2.png" height="50%" width="50%" link="">}}
 
-{{< figure src="/images/bornwin/3.png" height="50%" width="50%" link="">}}
+{{< figure src="/images/winfirst/3.png" height="50%" width="50%" link="">}}
 
-{{< figure src="/images/bornwin/4.png" height="50%" width="50%" link="">}}
+{{< figure src="/images/winfirst/4.png" height="50%" width="50%" link="">}}
 
-{{< figure src="/images/bornwin/5.png" height="50%" width="50%" link="">}}
+{{< figure src="/images/winfirst/5.png" height="50%" width="50%" link="">}}
 
-{{< figure src="/images/bornwin/6.png" height="50%" width="50%" link="">}}
+{{< figure src="/images/winfirst/6.png" height="50%" width="50%" link="">}}
 
-{{< figure src="/images/bornwin/7.png" height="50%" width="50%" link="">}}
+{{< figure src="/images/winfirst/7.png" height="50%" width="50%" link="">}}
 
-{{< figure src="/images/bornwin/8.png" height="50%" width="50%" link="">}}
+{{< figure src="/images/winfirst/8.png" height="50%" width="50%" link="">}}
 
-{{< figure src="/images/bornwin/9.png" height="50%" width="50%" link="">}}
+{{< figure src="/images/winfirst/9.png" height="50%" width="50%" link="">}}
+
+## download link

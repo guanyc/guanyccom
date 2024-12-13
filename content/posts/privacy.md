@@ -1,6 +1,6 @@
 ---
 title: 'Privacy'
-date: Mon, 07 Sep 2021 00:12:00 +0000
+date: Mon, 07 Sep 2020 00:12:00 +0000
 draft: false
 tags: ['all']
 Author: [guanyc]
