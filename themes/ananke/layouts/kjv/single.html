@@ -1,77 +1,425 @@
-{{ define "header" }}
-   {{/* We can override any block in the baseof file be defining it in the template */}}
-  {{ partial "page-header.html" . }}
-{{ end }}
-
 {{ define "main" }}
-  {{ $section := .Site.GetPage "section" .Section }}
-  <article class="flex-l flex-wrap justify-between mw8 center ph3">
-    <header class="mt4 w-100">
-      <aside class="instapaper_ignoref b helvetica tracked">
-          {{/*
-          CurrentSection allows us to use the section title instead of inferring from the folder.
-          https://gohugo.io/variables/page/#section-variables-and-methods
-          */}}
-        {{with .CurrentSection.Title }}{{. | upper }}{{end}}
-      </aside>
-      {{ partial "social-share.html" . }}
+<article>
+  <header>
 
 
-      <div class="relative w-200 w-250-l mb2 . ">
-          <a href="/kjv" class="f2 mv4 dib tracked">   KJV  </a>
-          <a href="/kjv/{{- .CurrentSection.Title|urlize -}}"  class="f2 mv4 dib tracked"> {{- .CurrentSection.Title | markdownify -}}</a>
-      </div>
+    {{ partial "nav.html" . }}
+    <div class="font-size-header">
+      <h1>{{ .Title }}</h1>
 
+      <div class="font-size-buttons">
 
-      <h2 class="f1 athelas mt3 mb1">
-        {{- .Title -}}
-      </h2>
-
-      {{ with .Params.author }}
-      <p class="tracked">
-          By <strong>
-          {{ if reflect.IsSlice . }}
-              {{ delimit . ", " | markdownify }}
-          {{else}}
-              {{ . | markdownify }}
-          {{ end }}
-          </strong>
-      </p>
-      {{ end }}
-      {{/* Hugo uses Go's date formatting is set by example. Here are two formats */}}
-      <time class="f6 mv4 dib tracked" {{ printf `datetime="%s"` (.Date.Format "2006-01-02T15:04:05Z07:00") | safeHTMLAttr }}>
-        {{- .Date.Format "January 2, 2006" -}}
-      </time>
-
-      {{/*
-          Show "reading time" and "word count" but only if one of the following are true:
-          1) A global config `params` value is set `show_reading_time = true`
-          2) A section front matter value is set `show_reading_time = true`
-          3) A page front matter value is set `show_reading_time = true`
-        */}}
-      {{ if (or (eq (.Param "show_reading_time") true) (eq $section.Params.show_reading_time true) )}}
-        <span class="f6 mv4 dib tracked"> - {{ .ReadingTime}} minutes read</span>
-        <span class="f6 mv4 dib tracked"> - {{ .WordCount}} words</span>
-      {{ end }}
-    </header>
-    <div class="nested-copy-line-height lh-copy {{ $.Param "post_content_classes"  | default "serif"}} f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l">
-      {{- .Content -}}
-      {{- partial "tags.html" . -}}
-      <div class="mt6 instapaper_ignoref">
-      {{ if .Site.Config.Services.Disqus.Shortname }}
-        {{ template "_internal/disqus.html" . }}
-      {{ end }}
-      {{ if .Site.Params.commentoEnable }}
-        {{- partial "commento.html" . -}}
-      {{ end }}
+        <button onclick="changeFontSize('increase')">
+          <i class="fas fa-plus"></i> <!-- FontAwesome icon for increase -->
+        </button>
+        <button onclick="changeFontSize('decrease')">
+          <i class="fas fa-minus"></i> <!-- FontAwesome icon for decrease -->
+        </button>
+        <button onclick="toggleShareMenu()">
+          <i class="fas fa-share-alt"></i> <!-- FontAwesome icon for share menu -->
+        </button>
       </div>
     </div>
 
-    <!--
-    <aside class="w-30-l mt6-l">
-      {{- partial "menu-contextual.html" . -}}
-    </aside>
-    -->
+  </header>
 
-  </article>
+  <section>
+    <div class="content">
+      {{ .Content }}
+    </div>
+  </section>
+
+  <footer>
+    <nav>
+      <div class="button-container">
+        <div class="left">
+          {{ if .NextInSection }}
+          <a class="button" href="{{ .NextInSection.Permalink }}">Previous</a>
+          {{ end }}
+        </div>
+
+        <div class="middle">
+          <a class="button" id="locate_button" href="javascript:void(0);" onclick="toggleChapterNumbers()">Locate</a>
+        </div>
+
+        <div class="right">
+          {{ if .PrevInSection }}
+          <a class="button" href="{{ .PrevInSection.Permalink }}">Next</a>
+          {{ end }}
+        </div>
+      </div>
+    </nav>
+  </footer>
+
+  <div id="context-menu" class="context-menu" style="display: none;">
+
+    <button onclick="shareOnFacebook()">Facebook</button>
+    <button onclick="shareOnTwitter()">Twitter(X)</button>
+    <button onclick="shareOnWhatsApp()">WhatsApp</button>
+    <button onclick="shareByEmail()">Share by Email</button>
+    <button onclick="copyToClipboard()">Copy</button>
+
+    <button onclick="document.getElementById('context-menu').style.display = 'none'">Close</button>
+
+  </div>
+</article>
+
+<div id="chapter-numbers-modal" class="modal" style="display: none;">
+  <div class="modal-content">
+    <span class="close" onclick="toggleChapterNumbers()">&times;</span>
+    <div id="book-buttons" class="book-buttons"></div>
+    <div id="chapter-buttons" class="chapter-buttons"></div>
+  </div>
+</div>
+
+<script>
+  const booksData2 = {{ $.Site.Data.books.books }};
+  const currentPath2 = window.location.pathname.split('/');
+
+  // Determine current book and chapter from the URL
+  const currentBook2 = currentPath2[2]; // Assuming URL structure: /kjv/<book>/<chapter>/
+  const currentChapter2 = currentPath2[3] || '1';
+
+  function toggleChapterNumbers() {
+    const modal = document.getElementById('chapter-numbers-modal');
+    modal.style.display = modal.style.display === 'none' ? 'block' : 'none';
+  }
+
+
+  let selectedLinesList = [];
+
+  function toggleSelect(element) {
+    element.classList.toggle('selected');
+    const lineIndex = selectedLinesList.indexOf(element);
+
+    if (lineIndex === -1) {
+      // Add to the list if not already selected
+      selectedLinesList.push(element);
+    } else {
+      // Remove from the list if already selected
+      selectedLinesList.splice(lineIndex, 1);
+    }
+    //alert(selectedLinesList);
+
+    updateContextMenu();
+  }
+
+  function getSelectedLines() {
+    const selectedLines = document.querySelectorAll('.content ol li.selected');
+    const selectedTexts = Array.from(selectedLines).map(li => li.textContent);
+    return selectedTexts.join('\n');
+  }
+
+  function toggleChapterNumbers() {
+    const modal = document.getElementById('chapter-numbers-modal');
+    modal.style.display = modal.style.display === 'none' ? 'block' : 'none';
+  }
+
+  function updateContextMenu() {
+    const contextMenu = document.getElementById('context-menu');
+    alert(contextMenu);
+
+    if (selectedLinesList.length > 0) {
+      //const lastSelectedLine = selectedLinesList[selectedLinesList.length - 1];
+      //const lastRect = lastSelectedLine.getBoundingClientRect();
+
+      // contextMenu.style.display = 'block';
+      //contextMenu.style.top = `${lastRect.bottom + window.scrollY}px`;
+      //contextMenu.style.left = `${lastRect.right + window.scrollX}px`;
+      //contextMenu.style.right = "100px";
+
+      contextMenu.style.display = 'block';
+
+
+    } else {
+
+      contextMenu.style.display = 'none';
+    }
+  }
+
+  function toggleShareMenu() {
+    const contextMenu = document.getElementById('context-menu');
+
+    contextMenu.style.display = contextMenu.style.display === 'none' ? 'block' : 'none';
+  }
+
+  function shareOnFacebook() {
+    const selectedText = getSelectedLines();
+    const url = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(window.location.href)}&quote=${encodeURIComponent(selectedText)}`;
+    window.open(url, '_blank');
+  }
+
+  function shareOnTwitter() {
+    const selectedText = getSelectedLines();
+    const url = `https://twitter.com/intent/tweet?text=${encodeURIComponent(selectedText)}&url=${encodeURIComponent(window.location.href)}`;
+    window.open(url, '_blank');
+  }
+
+  function shareOnWhatsApp() {
+    const selectedText = getSelectedLines();
+    const url = `https://api.whatsapp.com/send?text=${encodeURIComponent(selectedText)} ${encodeURIComponent(window.location.href)}`;
+    window.open(url, '_blank');
+  }
+
+  function shareByEmail() {
+    const selectedText = getSelectedLines();
+    const url = `mailto:?subject=Bible Verse&body=${encodeURIComponent(selectedText)} ${encodeURIComponent(window.location.href)}`;
+    window.location.href = url;
+  }
+
+  function copyToClipboard() {
+    const selectedText = getSelectedLines();
+    navigator.clipboard.writeText(selectedText).then(() => {
+     //alert('Selected verses copied to clipboard');
+    });
+  }
+
+  function updateChapters(bookName) {
+    const book = booksData2.find(b => b.name.toLowerCase().replace(/ /g, '-') === bookName.toLowerCase());
+
+    const chapterButtons = document.getElementById('chapter-buttons');
+    chapterButtons.innerHTML = '';
+    for (let i = 1; i <= book.chapters; i++) {
+      const button = document.createElement('button');
+      button.textContent = i;
+      button.onclick = () => navigateToPage(bookName.toLowerCase().replace(/ /g, '-'), i);
+      chapterButtons.appendChild(button);
+    }
+  }
+
+  function createBookButtons() {
+    const bookButtons = document.getElementById('book-buttons');
+    booksData2.forEach(book => {
+      const button = document.createElement('button');
+      button.textContent = book.name;
+      button.onclick = () => updateChapters(book.name.toLowerCase().replace(/ /g, '-'));
+      bookButtons.appendChild(button);
+    });
+  }
+
+  function navigateToPage(book, chapter) {
+    window.location.href = `/kjv/${book}/${chapter}`;
+  }
+
+  document.addEventListener('DOMContentLoaded', createBookButtons);
+
+  // Iterate over the verses
+  document.addEventListener('DOMContentLoaded', () => {
+    const verses = document.querySelectorAll('.content ol li');
+    verses.forEach((verse, index) => {
+      verse.addEventListener('click', () => {
+        toggleSelect(verse);
+        console.log(`Verse ${index + 1} clicked: ${verse.textContent}`);
+      });
+    });
+  });
+
+  // Hide context menu when clicking outside
+  document.addEventListener('click', (event) => {
+    const contextMenu = document.getElementById('context-menu');
+    if (!contextMenu.contains(event.target)) {
+      contextMenu.style.display = 'none';
+    }
+  });
+
+  function changeFontSize(action) {
+    //alert("Changing font size");
+    const content = document.querySelector('.content');
+    //alert(content);
+    let currentFontSize = parseFloat(window.getComputedStyle(content, null).getPropertyValue('font-size'));
+
+    if (action === 'increase') {
+      currentFontSize += 2;
+    } else if (action === 'decrease') {
+      currentFontSize -= 2;
+    }
+
+    content.style.fontSize = currentFontSize + 'px';
+  }
+
+</script>
+
+<style>
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+
+  .button:hover {
+    background-color: #0056b3;
+  }
+
+  .chapter-numbers {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 8px;
+    margin: 0;
+  }
+
+  .chapter-numbers li {
+    margin-right: 15px;
+    /* Adjust the spacing between items as needed */
+    padding: 8px 16px;
+  }
+
+  .chapter-numbers li a {
+    display: inline-block;
+    padding: 8px 16px;
+    text-decoration: none;
+    color: white;
+    background-color: #6c9acb;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+
+  .chapter-numbers li a:hover {
+    background-color: #0caf24;
+  }
+
+
+  .button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+
+  .button-container .left,
+  .button-container .middle,
+  .button-container .right {
+    align-items: center;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
+
+  .button-container .left .button,
+  .button-container .middle .button,
+  .button-container .right .button {
+    padding: 16px 32px;
+  }
+
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 500;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+
+
+
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+  }
+
+
+
+  .context-menu {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 50%;
+    width: 20%;
+    height: fix-content;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 5px;
+  }
+
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .book-buttons,
+  .chapter-buttons {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    gap: 10px;
+    margin-top: 20px;
+  }
+
+  .book-buttons button,
+  .chapter-buttons button {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .book-buttons button:hover,
+  .chapter-buttons button:hover {
+    background-color: #0056b3;
+  }
+
+  .content {
+    font-size: 16px;
+    /* Default font size */
+  }
+
+  .font-size-header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .font-size-buttons {
+    float: flex-end;
+  }
+
+  .font-size-buttons button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+    font-size: 20px;
+    /* Adjust the size as needed */
+  }
+
+  .font-size-buttons button i {
+    color: #007bff;
+    /* Adjust the color as needed */
+  }
+
+  .content ol li {
+    cursor: pointer;
+  }
+
+  .content ol li.selected {
+    background-color: #d3d3d3;
+    /* Change this to your desired highlight color */
+  }
+</style>
 {{ end }}

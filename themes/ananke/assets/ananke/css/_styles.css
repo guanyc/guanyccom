@@ -18,3 +18,14 @@
 .nested-links a{
   overflow-wrap: break-word;
 }
+
+.chapter-numbers {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.chapter-numbers li {
+  margin-right: 10px; /* Adjust the spacing between items as needed */
+}
