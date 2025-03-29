@@ -6,6 +6,7 @@ date: Tue, 08 Sep 2020 12:20:28 +0000
 draft: false
 tags: ['all','WinFirst']
 Author: [guanyc]
+aliases: [/winfirst/privacy-policy']
 ---
 
 The Win First stock targets selecting notes-taking application provides
