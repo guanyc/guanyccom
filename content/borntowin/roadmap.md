@@ -1,12 +1,11 @@
 ---
-title: Win First Stock targets selection recording application for android
 title: 'Win First roadmap'
 
 date: Tue, 08 Sep 2020 12:20:28 +0000
 draft: false
 tags: ['all','winfirst',]
 Author: [guanyc]
-aliases: [/winfirst/roadmap/']
+aliases: ['/winfirst/roadmap/']
 
 ---
 

@@ -1,6 +1,5 @@
 baseURL = "https://www.guanyc.com"
 title = "guanyc"
-theme = "ananke"
 
 languageCode = "en"
 defaultContentLanguage = "en-us"
@@ -26,6 +25,12 @@ name = "KJV"
 weight = 40
 identifier = "kjv"
 url = "/android-apps/"
+
+[[menu.main]]
+name = "Docs"
+weight = 50
+identifier = "docs"
+url = "/docs/"
 
 
 Paginate = 20                     # this is set low for demonstrating with dummy content. Set to a higher number
@@ -66,3 +71,7 @@ rss = ""
 background_color_class = "bg-moon-gray"
 featured_image = "images/meng-ji-8BH_M-53CyA-unsplash.jpg"
 recent_posts_number = 4
+
+[module]
+  [[module.imports]]
+    path = "github.com/McShelby/hugo-theme-relearn"
