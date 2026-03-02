@@ -1,11 +1,14 @@
 [build]
 publish = "public"
 command = "hugo --gc --minify"
+  [build.environment]
+  NODE_VERSION = "22"
 
 [context.production.environment]
 HUGO_VERSION = "0.155.3"
 HUGO_ENV = "production"
 HUGO_ENABLEGITINFO = "true"
+NODE_VERSION = "22"
 
 [context.split1]
 command = "hugo --gc --minify --enableGitInfo"
@@ -19,12 +22,14 @@ command = "hugo --gc --minify --buildFuture -b $DEPLOY_PRIME_URL"
 
 [context.deploy-preview.environment]
 HUGO_VERSION = "0.155.3"
+NODE_VERSION = "22"
 
 [context.branch-deploy]
 command = "hugo --gc --minify -b $DEPLOY_PRIME_URL"
 
 [context.branch-deploy.environment]
 HUGO_VERSION = "0.155.3"
+NODE_VERSION = "22"
 
 [context.next.environment]
 HUGO_ENABLEGITINFO = "true"
