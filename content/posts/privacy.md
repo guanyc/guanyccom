@@ -12,137 +12,100 @@ aliases: ["/privacy"]
 
 # Privacy Policy
 
-**Effective Date:** January 1, 2020
+**Effective Date:** March 2, 2026
 
-**Last Updated:** March 1, 2026
+**Bible KJV** (“we”, “our”, or “the App”) values your privacy. This Privacy Policy explains how information is handled when you use our mobile application.
 
-Bible KJV （RVR,CUV,ASV,WEB,...） ("we", "our", or "the App") values your privacy. This Privacy Policy explains how information is handled when you use our mobile application.
-
-## Information We Collect
+## 1. Information We Collect
 
 ### a) Reading Data (Local Storage & Backup)
-
 The App stores reading progress, bookmarks, favorites, and user preferences locally on your device.
 
-If you choose to enable backup, this data is saved to your personal Google Drive account using the Google Drive AppData folder (drive.appdata scope).
+If you choose to enable backup, this data is saved to your personal Google Drive account using the Google Drive AppData folder (`drive.appdata` scope).
 
-The App:
-- Only accesses its own AppData folder
-- Cannot view or access other files in your Google Drive
-- Does not modify any unrelated files
+**The App:**
+*   Only accesses its own AppData folder.
+*   Cannot view or access other files in your Google Drive.
+*   Does not modify any unrelated files.
 
 Backup data remains under your control within your Google account.
 
-### b) Advertising
+### b) Analytics & Crash Reporting
+We use **Google Firebase** to improve the app's stability and user experience.
 
-The App uses Google AdMob to display advertisements.
+*   **Usage Analytics (Firebase Analytics):** Collects anonymous data about how you interact with the app (e.g., screens visited, features used). This helps us understand usage trends and improve the app.
+*   **Crash Reports (Firebase Crashlytics):** Automatically collects anonymous reports when the app crashes. This includes stack traces and device state information to help us fix bugs.
 
-AdMob may automatically collect certain information, including:
-- Advertising ID
-- Device information
-- IP address
-- Usage data
+**Control:** You can enable or disable these features at any time in the App **Settings > About**.
 
-This information is used to provide personalized or non-personalized advertisements in accordance with Google's policies.
+### c) Advertising
+The App uses **Google AdMob** to display advertisements. Ads allow us to offer the app for free.
 
-For more information, please visit: https://policies.google.com/privacy
+AdMob may automatically collect certain information to serve ads, including:
+*   Advertising ID (e.g., GAID)
+*   Device information
+*   IP address
+*   Usage data
 
-### c) In-App Purchases
+This information is used to provide **Personalized** or **Non-Personalized** advertisements in accordance with Google’s policies and your consent choices (managed via the **User Messaging Platform**).
 
-The App uses Google Play Billing to process in-app purchases.
+For more information, please visit: [Google Privacy Policy](https://policies.google.com/privacy)
 
+### d) In-App Purchases
+The App uses **Google Play Billing** to process in-app purchases (e.g., "Remove Ads").
 We do not collect or store payment information. All transactions are securely handled by Google Play.
 
-### d) Crash Reports and Analytics
-
-The App uses Firebase Crashlytics to collect crash logs for debugging and improving app stability.
-
-**Crashlytics may collect the following information:**
-- Device manufacturer and model
-- Android version
-- App version
-- Crash stack traces
-- Device unique identifier (for statistical purposes only)
-
-**How we use this information:**
-- Diagnose and fix app crashes
-- Improve app stability and performance
-- Analyze device compatibility issues
-
-**Your control:**
-- Crash reporting is enabled by default to help us improve the app
-- You can disable crash reporting at any time in the App Settings
-- You can also choose to opt-out during the first crash consent dialog
-- When disabled, no crash data will be collected
-
-**Data retention:** Crash logs are retained on Firebase servers for up to 90 days and are not shared with third parties.
-
-For more information about Firebase's privacy practices, please visit: https://firebase.google.com/terms
-
----
-
-## How We Use Information
+## 2. How We Use Information
 
 Information is used to:
-- Save reading progress
-- Enable backup and restore functionality
-- Display advertisements
-- Process in-app purchases
-- Maintain app stability and improve performance
-- Analyze crash reports to fix bugs
+*   Save your reading progress and preferences.
+*   Enable backup and restore functionality.
+*   Display advertisements (to support the free version).
+*   Process in-app purchases.
+*   **Analyze usage trends** to improve app features.
+*   **Detect, diagnose, and fix crashes** to maintain app stability.
 
----
-
-## Data Sharing
+## 3. Data Sharing
 
 We do not sell, rent, or trade your personal information.
 
-Information may be processed by:
-- Google AdMob (advertising services)
-- Google Drive (user-initiated backup)
-- Google Play Billing (purchase processing)
-- Firebase Crashlytics (crash reporting)
+Information may be processed by third-party service providers:
+*   **Google AdMob:** For advertising services.
+*   **Google Firebase:** For analytics and crash reporting.
+*   **Google Drive:** For user-initiated backup (data remains in your account).
+*   **Google Play Billing:** For purchase processing.
 
-Each of these services operates under its own privacy policy:
-- Google Privacy Policy: https://policies.google.com/privacy
-- Firebase Terms of Service: https://firebase.google.com/terms
+Each of these services operates under its own privacy policy.
 
----
+## 4. Your Choices & Controls
 
-## Data Security
+We believe you should control your data. The App provides the following controls:
+
+*   **Usage Analytics:** Toggle On/Off in *Settings > About*.
+*   **Crash Reports:** Toggle On/Off in *Settings > About*.
+*   **Advertising Privacy:** 
+    *   **GDPR/UK Users:** Use the "Privacy Options" menu in Settings to manage consent for ad personalization.
+    *   **All Users:** You can reset your Advertising ID or opt-out of personalized ads via your device's system settings (*Settings > Google > Ads*).
+*   **Google Drive Access:** You can revoke the App's access to your Drive at any time via your Google Account permissions.
+*   **Local Data:** Uninstalling the App removes all locally stored data.
+
+## 5. Data Security
 
 We take reasonable technical measures to protect user data.
+*   Local data is stored in the app's private sandbox.
+*   Backup data is stored securely within your Google Drive AppData folder and is not publicly accessible.
+*   Analytics and Crash data are transmitted securely (HTTPS) and are anonymized.
 
-- Backup data is stored securely within your Google Drive AppData folder and is not publicly accessible
-- Crash logs are encrypted during transmission using TLS
-- All Firebase data processing follows industry-standard security practices including SOC 2 Type II, ISO 27001, and HIPAA compliance
-
----
-
-## Children's Privacy
+## 6. Children’s Privacy
 
 The App is not directed to children under the age of 13. We do not knowingly collect personal information from children.
 
----
+## 7. Changes to This Policy
 
-## Your Choices
+We may update this Privacy Policy from time to time. Updates will be reflected by revising the "Effective Date" at the top of this policy.
 
-You may:
-- Disable crash reporting in App Settings (Settings → Send Crash Reports)
-- Disable personalized advertising through your device settings
-- Revoke Google Drive access at any time via your Google account permissions
-- Uninstall the App to remove locally stored data
-
----
-
-## Changes to This Policy
-
-We may update this Privacy Policy from time to time. Updates will be reflected by revising the effective date.
-
----
-
-## Contact Us
+## 8. Contact Us
 
 If you have questions regarding this Privacy Policy, please contact:
 
-Email: yc.guan@gmail.com
+**Email:** yc.guan@gmail.com
