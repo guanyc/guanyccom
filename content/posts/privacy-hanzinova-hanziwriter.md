@@ -1,6 +1,6 @@
 ---
 
-title: 'Bible Privacy'
+title: 'HanziNova HanziWriter Privacy Policy'
 date: Mon, 07 Sep 2020 00:12:00 +0000
 draft: false
 tags: ['all']
