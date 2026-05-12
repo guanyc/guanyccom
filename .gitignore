@@ -17,3 +17,6 @@ npm-debug.log
 /src/client.config.json
 /styleguide/
 /docs/
+.vercel/
+vercel.json
+.vercelignore
