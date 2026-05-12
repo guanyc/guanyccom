@@ -158,6 +158,6 @@ Changes will be reflected with a new "Effective date".
 
 If you have any questions, contact us at:
 
-📧 [YOUR EMAIL]
+📧 [yc.guan@gmail.com](mailto:yc.guan@gmail.com)
 
 ---

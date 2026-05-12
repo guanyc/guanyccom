@@ -32,6 +32,12 @@ weight = 50
 identifier = "docs"
 url = "/docs/"
 
+[[menu.main]]
+name = "Apps"
+weight = 60
+identifier = "apps"
+url = "/apps/"
+
 
 Paginate = 20                     # this is set low for demonstrating with dummy content. Set to a higher number
 googleAnalytics = "UA-36598421-2"
