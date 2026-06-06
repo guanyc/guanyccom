@@ -4,7 +4,7 @@ date: Mon, 01 Jun 2026 00:00:00 +0000
 draft: false
 description: "Fell behind on your Bible reading plan? Take a Break in KJV Bible App – Daily Devotional offers a verse, reflection, and prayer for busy days—no catch-up pressure."
 tags: ['all', 'kjv', 'devotional', 'reading-plan', 'take-a-break']
-aliases: ['/take-a-break', '/kjv-take-a-break']
+aliases: ['/kjv-take-a-break', '/take-a-break-reading-plan']
 Author: [guanyc]
 ---
 

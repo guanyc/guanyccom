@@ -9,6 +9,29 @@ https://play.google.com/store/apps/developer?id=right
 
 ![Apps](/images/apps/apps-cover.jpg)
 
+## Take a Break
+
+Short description: A quick Bible-based devotional for moments when life feels heavy. Find peace in one minute.
+
+<details>
+<summary>Full description</summary>
+<ul>
+  <li>Personalized devotionals based on your current emotion</li>
+  <li>KJV Bible verses with practical spiritual insights</li>
+  <li>Heartfelt prayers for a gentle spiritual reset</li>
+  <li>Optional audio playback with natural reading</li>
+  <li>Easy copy & share (including beautiful image cards)</li>
+  <li>Customizable daily reminders</li>
+</ul>
+</details>
+
+- Package: `com.guanyc.takeabreak`
+- Google Play: https://play.google.com/store/apps/details?id=com.guanyc.takeabreak
+- Promo page: https://www.guanyc.com/take-a-break/
+- Category: Productivity / Lifestyle
+- Tags: Bible, Devotional, Christian, Faith, Prayer, KJV
+- Privacy Policy: https://www.guanyc.com/take-a-break/privacy/
+
 ## Bible KJV - Daily Devotional
 
 Short description: Offline KJV Bible with daily devotionals, audio, and guided spiritual rhythm.
