@@ -40,7 +40,6 @@ url = "/apps/"
 
 
 Paginate = 20                     # this is set low for demonstrating with dummy content. Set to a higher number
-googleAnalytics = "UA-36598421-2"
 enableRobotsTXT = true
 
 #[languages]

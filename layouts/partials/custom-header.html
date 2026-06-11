@@ -1,0 +1,33 @@
+<!-- compat way of adding custom scripts in old Hugo documentation -->
+{{- $assetBusting := partialCached "assetbusting.gotmpl" site.Home }}
+
+{{- $filePath := "css/custom.css" }}
+{{- with (resources.Get (printf "/%s" $filePath)) }}
+    <link href="{{ .RelPermalink }}{{ $assetBusting }}" rel="stylesheet">
+{{- else }}
+  {{- if (fileExists (printf "/static/%s" $filePath)) }}
+    <link href="{{ printf "%s" $filePath | relURL }}{{ $assetBusting }}" rel="stylesheet">
+  {{- end }}
+{{- end }}
+
+{{- $filePath := "js/custom.js" }}
+{{- with (resources.Get (printf "/%s" $filePath)) }}
+    <script src="{{ .RelPermalink }}{{ $assetBusting }}" defer></script>
+{{- else }}
+  {{- if (fileExists (printf "/static/%s" $filePath)) }}
+    <script src="{{ printf "%s" $filePath | relURL }}{{ $assetBusting }}" defer></script>
+  {{- end }}
+{{- end }}
+
+{{ if eq (getenv "HUGO_ENV") "production" | or (eq .Site.Params.env "production") }}
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-6ZQ36M9YCH"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-6ZQ36M9YCH');
+</script>
+{{ end }}
+
