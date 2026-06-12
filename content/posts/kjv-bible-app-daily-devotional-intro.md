@@ -4,7 +4,7 @@ date: Sun, 31 May 2026 00:00:00 +0000
 draft: false
 description: "Looking for a KJV Bible app with daily devotional reading? Bible KJV – Daily Devotional includes Verse of the Day, emotion-based devotionals, topic devotionals, and Take a Break for busy days."
 tags: ['all', 'kjv', 'devotional', 'daily-devotional', 'bible-app', 'verse-of-the-day', 'take-a-break']
-aliases: ['/daily-devotional-kjv', '/kjv-daily-devotional']
+aliases: ['/daily-devotional-kjv', '/kjv-daily-devotional', '/kjv-bible-app']
 Author: [guanyc]
 ---
 

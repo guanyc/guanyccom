@@ -1,0 +1,598 @@
+{{- $books := site.Data.books.books -}}
+{{- $isRoot := and .IsSection (eq .Section "kjv") (or (not .Parent) (eq .Parent.Kind "home")) -}}
+{{- $isBookSection := and .IsSection .Parent (eq .Parent.Section "kjv") (ne .Parent.Kind "home") -}}
+{{- $bookPage := . -}}
+{{- if not $isBookSection -}}
+  {{- if and .IsPage .Parent (eq .Parent.Section "kjv") -}}
+    {{- $bookPage = .Parent -}}
+  {{- end -}}
+{{- end -}}
+{{- $bookTitle := "" -}}
+{{- if not $isRoot -}}
+  {{- $bookTitle = $bookPage.Title -}}
+{{- end -}}
+{{- $scratch := newScratch -}}
+{{- range $index, $book := $books -}}
+  {{- if eq $book.name $bookTitle -}}
+    {{- $scratch.Set "bookIndex" $index -}}
+    {{- $scratch.Set "bookMeta" $book -}}
+  {{- end -}}
+{{- end -}}
+{{- $bookIndex := $scratch.Get "bookIndex" -}}
+{{- $bookMeta := $scratch.Get "bookMeta" -}}
+{{- $bookSlug := "" -}}
+{{- if $bookMeta -}}
+  {{- $bookSlug = $bookMeta.name | urlize -}}
+{{- end -}}
+
+<article class="kjv-browser">
+  <header class="headline">
+    {{- partial "content-header.html" . }}
+  </header>
+
+  {{- if $isRoot }}
+    <section class="kjv-hero">
+      <p class="kjv-eyebrow">King James Version</p>
+      <h1>{{ .Title }}</h1>
+      <p class="kjv-lead">Browse Scripture by testament, choose a book quickly, and jump straight into the chapter you need.</p>
+      {{- with .Content }}
+        <div class="kjv-hero-copy">{{ . }}</div>
+      {{- end }}
+      <div class="kjv-quick-links">
+        <a href="/kjv/psalms/1/">Psalms</a>
+        <a href="/kjv/proverbs/1/">Proverbs</a>
+        <a href="/kjv/john/1/">John</a>
+        <a href="/kjv/romans/1/">Romans</a>
+      </div>
+    </section>
+
+    <section class="kjv-section-block">
+      <div class="kjv-section-head">
+        <h2>Old Testament</h2>
+        <p>Law, history, wisdom, and prophecy in canonical order.</p>
+      </div>
+      <div class="kjv-book-grid">
+        {{- range first 39 $books }}
+          <a class="kjv-book-card" href="/kjv/{{ .name | urlize }}/1/">
+            <span class="kjv-book-name">{{ .name }}</span>
+            <span class="kjv-book-meta">{{ .chapters }} chapters</span>
+          </a>
+        {{- end }}
+      </div>
+    </section>
+
+    <section class="kjv-section-block">
+      <div class="kjv-section-head">
+        <h2>New Testament</h2>
+        <p>Gospels, church history, letters, and Revelation.</p>
+      </div>
+      <div class="kjv-book-grid">
+        {{- range after 39 $books }}
+          <a class="kjv-book-card" href="/kjv/{{ .name | urlize }}/1/">
+            <span class="kjv-book-name">{{ .name }}</span>
+            <span class="kjv-book-meta">{{ .chapters }} chapters</span>
+          </a>
+        {{- end }}
+      </div>
+    </section>
+  {{- else if $isBookSection }}
+    <nav class="kjv-breadcrumbs" aria-label="Breadcrumb">
+      <a href="/kjv/">KJV Home</a>
+      <span>/</span>
+      <span aria-current="page">{{ .Title }}</span>
+    </nav>
+
+    <section class="kjv-hero kjv-hero-book">
+      <p class="kjv-eyebrow">Book Overview</p>
+      <h1>{{ .Title }}</h1>
+      {{- with $bookMeta }}
+        <p class="kjv-lead">{{ .chapters }} chapters available in the King James Version.</p>
+      {{- end }}
+      <div class="kjv-action-row">
+        {{- if ge $bookIndex 1 }}
+          {{- $prevBook := index $books (sub $bookIndex 1) -}}
+          <a class="kjv-action-link" href="/kjv/{{ $prevBook.name | urlize }}/1/">Previous Book</a>
+        {{- end }}
+        {{- with $bookMeta }}
+          <a class="kjv-action-link kjv-primary" href="/kjv/{{ .name | urlize }}/1/">Start Chapter 1</a>
+        {{- end }}
+        {{- if lt (add $bookIndex 1) (len $books) }}
+          {{- $nextBook := index $books (add $bookIndex 1) -}}
+          <a class="kjv-action-link" href="/kjv/{{ $nextBook.name | urlize }}/1/">Next Book</a>
+        {{- end }}
+      </div>
+    </section>
+
+    <section class="kjv-section-block">
+      <div class="kjv-section-head">
+        <h2>Chapters</h2>
+        <p>Jump directly to any chapter in {{ .Title }}.</p>
+      </div>
+      <div class="kjv-chapter-grid">
+        {{- range .RegularPages.ByWeight }}
+          <a class="kjv-chapter-pill" href="{{ .RelPermalink }}">{{ .Weight }}</a>
+        {{- end }}
+      </div>
+    </section>
+
+    <details class="kjv-book-switcher">
+      <summary>Choose another book</summary>
+      <div class="kjv-book-switcher-body">
+        <div>
+          <h3>Old Testament</h3>
+          <div class="kjv-book-grid kjv-book-grid-compact">
+            {{- range first 39 $books }}
+              <a class="kjv-book-card" href="/kjv/{{ .name | urlize }}/1/">{{ .name }}</a>
+            {{- end }}
+          </div>
+        </div>
+        <div>
+          <h3>New Testament</h3>
+          <div class="kjv-book-grid kjv-book-grid-compact">
+            {{- range after 39 $books }}
+              <a class="kjv-book-card" href="/kjv/{{ .name | urlize }}/1/">{{ .name }}</a>
+            {{- end }}
+          </div>
+        </div>
+      </div>
+    </details>
+  {{- else }}
+    {{- $currentChapter := .Weight -}}
+    {{- $prevChapter := sub $currentChapter 1 -}}
+    {{- $nextChapter := add $currentChapter 1 -}}
+    {{- $hasPrevChapter := and $bookMeta (ge $prevChapter 1) -}}
+    {{- $hasNextChapter := and $bookMeta (le $nextChapter $bookMeta.chapters) -}}
+
+    <nav class="kjv-breadcrumbs" aria-label="Breadcrumb">
+      <a href="/kjv/">KJV Home</a>
+      <span>/</span>
+      <a href="{{ $bookPage.RelPermalink }}">{{ $bookPage.Title }}</a>
+      <span>/</span>
+      <span aria-current="page">Chapter {{ .Weight }}</span>
+    </nav>
+
+    <section class="kjv-hero kjv-hero-chapter">
+      <p class="kjv-eyebrow">Chapter Reading</p>
+      <h1>{{ .Title }}</h1>
+      <div class="kjv-action-row">
+        {{- if $hasPrevChapter }}
+          <a class="kjv-action-link" href="/kjv/{{ $bookSlug }}/{{ $prevChapter }}/">Previous Chapter</a>
+        {{- else }}
+          <span class="kjv-action-link is-disabled">Previous Chapter</span>
+        {{- end }}
+        <a class="kjv-action-link kjv-primary" href="{{ $bookPage.RelPermalink }}">{{ $bookPage.Title }} Overview</a>
+        {{- if $hasNextChapter }}
+          <a class="kjv-action-link" href="/kjv/{{ $bookSlug }}/{{ $nextChapter }}/">Next Chapter</a>
+        {{- else }}
+          <span class="kjv-action-link is-disabled">Next Chapter</span>
+        {{- end }}
+      </div>
+    </section>
+
+    {{- with $bookMeta }}
+      <section class="kjv-section-block">
+        <div class="kjv-section-head">
+          <h2>{{ .name }} chapters</h2>
+          <p>Stay in the same book and move quickly between chapters.</p>
+        </div>
+        <div class="kjv-chapter-grid">
+          {{- range seq .chapters }}
+            {{- $chapterNumber := . -}}
+            <a class="kjv-chapter-pill{{ if eq $chapterNumber $.Weight }} is-current{{ end }}" href="/kjv/{{ $bookSlug }}/{{ $chapterNumber }}/">{{ $chapterNumber }}</a>
+          {{- end }}
+        </div>
+      </section>
+    {{- end }}
+
+    <section class="kjv-reading-card">
+      {{ .Content }}
+    </section>
+
+    <div class="kjv-bottom-spacer"></div>
+    <nav class="kjv-bottom-nav" aria-label="Chapter navigation">
+      {{- if $hasPrevChapter }}
+        <a class="kjv-bottom-link" href="/kjv/{{ $bookSlug }}/{{ $prevChapter }}/">Prev</a>
+      {{- else }}
+        <span class="kjv-bottom-link is-disabled">Prev</span>
+      {{- end }}
+      <a class="kjv-bottom-link kjv-bottom-primary" href="{{ $bookPage.RelPermalink }}">{{ $bookPage.Title }}</a>
+      {{- if $hasNextChapter }}
+        <a class="kjv-bottom-link" href="/kjv/{{ $bookSlug }}/{{ $nextChapter }}/">Next</a>
+      {{- else }}
+        <span class="kjv-bottom-link is-disabled">Next</span>
+      {{- end }}
+    </nav>
+
+    <nav class="kjv-under-nav" aria-label="Chapter navigation">
+      {{- if $hasPrevChapter }}
+        <a class="kjv-under-link" href="/kjv/{{ $bookSlug }}/{{ $prevChapter }}/" aria-label="Previous chapter">&larr;</a>
+      {{- else }}
+        <span class="kjv-under-link is-disabled" aria-disabled="true">&larr;</span>
+      {{- end }}
+      <span class="kjv-under-label">{{ $bookPage.Title }} {{ $currentChapter }}</span>
+      {{- if $hasNextChapter }}
+        <a class="kjv-under-link" href="/kjv/{{ $bookSlug }}/{{ $nextChapter }}/" aria-label="Next chapter">&rarr;</a>
+      {{- else }}
+        <span class="kjv-under-link is-disabled" aria-disabled="true">&rarr;</span>
+      {{- end }}
+    </nav>
+
+    <details class="kjv-book-switcher">
+      <summary>Switch to another book</summary>
+      <div class="kjv-book-switcher-body">
+        <div>
+          <h3>Old Testament</h3>
+          <div class="kjv-book-grid kjv-book-grid-compact">
+            {{- range first 39 $books }}
+              <a class="kjv-book-card{{ if eq .name $bookTitle }} is-current{{ end }}" href="/kjv/{{ .name | urlize }}/1/">{{ .name }}</a>
+            {{- end }}
+          </div>
+        </div>
+        <div>
+          <h3>New Testament</h3>
+          <div class="kjv-book-grid kjv-book-grid-compact">
+            {{- range after 39 $books }}
+              <a class="kjv-book-card{{ if eq .name $bookTitle }} is-current{{ end }}" href="/kjv/{{ .name | urlize }}/1/">{{ .name }}</a>
+            {{- end }}
+          </div>
+        </div>
+      </div>
+    </details>
+  {{- end }}
+
+  <footer class="footline">
+    {{- partial "content-footer.html" . }}
+  </footer>
+</article>
+
+<script>
+  try { document.body.classList.add('is-kjv'); } catch (e) {}
+</script>
+
+<style>
+  body.is-kjv.sidebar-flyout #R-body-overlay {
+    background-color: transparent !important;
+  }
+
+  body.is-kjv.topbar-flyout #R-main-overlay {
+    background-color: transparent !important;
+  }
+
+  .kjv-browser {
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+
+  .kjv-hero,
+  .kjv-section-block,
+  .kjv-reading-card,
+  .kjv-book-switcher {
+    border: 1px solid rgba(120, 134, 160, 0.22);
+    border-radius: 18px;
+    background: #ffffff;
+    box-shadow: 0 10px 30px rgba(31, 41, 55, 0.05);
+    color: #111827;
+    padding: 1.25rem 1.4rem;
+    margin: 0 0 1.25rem;
+  }
+
+  .kjv-eyebrow {
+    margin: 0 0 0.5rem;
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #5b6b84;
+  }
+
+  .kjv-hero h1,
+  .kjv-section-head h2 {
+    margin: 0;
+    color: #111827;
+  }
+
+  .kjv-hero h1 {
+    font-size: clamp(1.9rem, 3.2vw, 2.8rem);
+    letter-spacing: -0.02em;
+  }
+
+  .kjv-section-head h2 {
+    font-size: 1.4rem;
+    letter-spacing: -0.01em;
+  }
+
+  .kjv-lead,
+  .kjv-section-head p,
+  .kjv-hero-copy,
+  .kjv-book-meta {
+    color: #5b6576;
+  }
+
+  .kjv-hero-copy p:last-child,
+  .kjv-section-head p:last-child {
+    margin-bottom: 0;
+  }
+
+  .kjv-quick-links,
+  .kjv-action-row,
+  .kjv-breadcrumbs {
+    display: flex;
+    gap: 0.75rem;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .kjv-quick-links a,
+  .kjv-action-link,
+  .kjv-breadcrumbs a {
+    text-decoration: none;
+  }
+
+  .kjv-quick-links a,
+  .kjv-chapter-pill,
+  .kjv-book-card,
+  .kjv-action-link {
+    border-radius: 12px;
+    transition: transform 0.15s ease, box-shadow 0.15s ease, border-color 0.15s ease;
+  }
+
+  .kjv-quick-links a,
+  .kjv-action-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.7rem 1rem;
+    border: 1px solid rgba(72, 94, 144, 0.2);
+    background: #fff;
+    color: #23314d;
+    font-weight: 600;
+  }
+
+  .kjv-primary {
+    background: #2f5bea;
+    color: #fff;
+    border-color: #2f5bea;
+  }
+
+  .kjv-action-link.is-disabled {
+    opacity: 0.55;
+    border-style: dashed;
+    cursor: default;
+    pointer-events: none;
+  }
+
+  .kjv-book-grid,
+  .kjv-chapter-grid {
+    display: grid;
+    gap: 0.85rem;
+  }
+
+  .kjv-book-grid {
+    grid-template-columns: repeat(auto-fit, minmax(155px, 1fr));
+  }
+
+  .kjv-book-grid-compact {
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    margin-top: 0.75rem;
+  }
+
+  .kjv-book-card {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    padding: 0.95rem 1rem;
+    background: #fff;
+    border: 1px solid rgba(120, 134, 160, 0.22);
+    color: #24324b;
+    text-decoration: none;
+  }
+
+  .kjv-book-card.is-current {
+    border-color: #2f5bea;
+    box-shadow: 0 0 0 3px rgba(47, 91, 234, 0.14);
+  }
+
+  .kjv-book-name {
+    font-weight: 700;
+  }
+
+  .kjv-chapter-grid {
+    grid-template-columns: repeat(auto-fit, minmax(56px, 1fr));
+  }
+
+  .kjv-chapter-pill {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 48px;
+    padding: 0.65rem;
+    text-decoration: none;
+    background: #fff;
+    border: 1px solid rgba(120, 134, 160, 0.22);
+    color: #24324b;
+    font-weight: 700;
+  }
+
+  .kjv-chapter-pill.is-current {
+    background: #2f5bea;
+    color: #fff;
+    border-color: #2f5bea;
+  }
+
+  .kjv-reading-card ol {
+    margin: 0;
+    padding-left: 1.6rem;
+    line-height: 1.9;
+  }
+
+  .kjv-reading-card ol li {
+    padding-left: 0.2rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .kjv-reading-card,
+  .kjv-reading-card ol,
+  .kjv-reading-card ol li {
+    color: #111827;
+    opacity: 1;
+  }
+
+  .kjv-book-switcher summary {
+    cursor: pointer;
+    font-weight: 700;
+    color: #23314d;
+  }
+
+  .kjv-book-switcher-body {
+    margin-top: 1rem;
+    display: grid;
+    gap: 1.25rem;
+  }
+
+  .kjv-breadcrumbs {
+    margin-bottom: 0.9rem;
+    color: #5b6576;
+    font-size: 0.95rem;
+  }
+
+  .kjv-breadcrumbs span[aria-current="page"] {
+    color: #24324b;
+    font-weight: 700;
+  }
+
+  .kjv-quick-links a:hover,
+  .kjv-book-card:hover,
+  .kjv-chapter-pill:hover,
+  .kjv-action-link:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 10px 18px rgba(31, 41, 55, 0.08);
+    border-color: rgba(47, 91, 234, 0.34);
+  }
+
+  @media (max-width: 800px) {
+    .kjv-hero,
+    .kjv-section-block,
+    .kjv-reading-card,
+    .kjv-book-switcher {
+      padding: 1rem;
+      border-radius: 14px;
+    }
+
+    .kjv-book-grid,
+    .kjv-book-grid-compact {
+      grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    }
+
+    .kjv-chapter-grid {
+      grid-template-columns: repeat(auto-fit, minmax(48px, 1fr));
+    }
+  }
+
+  .kjv-bottom-spacer {
+    display: none;
+    height: 84px;
+  }
+
+  .kjv-bottom-nav {
+    display: none;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1200;
+    padding: 0.75rem 0.85rem;
+    gap: 0.75rem;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid rgba(120, 134, 160, 0.22);
+    background: rgba(255, 255, 255, 0.92);
+    -webkit-backdrop-filter: blur(12px);
+    backdrop-filter: blur(12px);
+  }
+
+  .kjv-bottom-link {
+    flex: 1;
+    text-align: center;
+    padding: 0.75rem 0.8rem;
+    border-radius: 14px;
+    border: 1px solid rgba(72, 94, 144, 0.2);
+    background: #fff;
+    color: #23314d;
+    font-weight: 700;
+    text-decoration: none;
+    min-width: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .kjv-bottom-link.is-disabled {
+    opacity: 0.45;
+    border-style: dashed;
+  }
+
+  .kjv-bottom-primary {
+    background: #2f5bea;
+    border-color: #2f5bea;
+    color: #fff;
+    flex: 1.35;
+  }
+
+  @media (max-width: 900px) {
+    .kjv-bottom-spacer {
+      display: block;
+    }
+
+    .kjv-bottom-nav {
+      display: flex;
+    }
+  }
+
+  .kjv-under-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.75rem;
+    margin: 0 0 1.25rem;
+  }
+
+  .kjv-under-link {
+    width: 46px;
+    height: 46px;
+    border-radius: 14px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(72, 94, 144, 0.2);
+    background: #fff;
+    color: #23314d;
+    font-weight: 900;
+    text-decoration: none;
+    transition: transform 0.15s ease, box-shadow 0.15s ease, border-color 0.15s ease;
+  }
+
+  .kjv-under-link.is-disabled {
+    opacity: 0.45;
+    border-style: dashed;
+  }
+
+  .kjv-under-label {
+    flex: 1;
+    text-align: center;
+    font-weight: 800;
+    color: #111827;
+    padding: 0.6rem 0.75rem;
+    border-radius: 14px;
+    background: rgba(47, 91, 234, 0.06);
+    border: 1px solid rgba(47, 91, 234, 0.12);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .kjv-under-link:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 10px 18px rgba(31, 41, 55, 0.08);
+    border-color: rgba(47, 91, 234, 0.34);
+  }
+</style>

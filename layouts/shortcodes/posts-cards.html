@@ -1,0 +1,23 @@
+{{- $page := .Page -}}
+{{- $posts := $page.Pages.ByDate.Reverse -}}
+
+<ul class="card-container">
+  {{- range $posts }}
+    {{- if .RelPermalink }}
+      <li>
+        <article class="card card-popout">
+          <div class="card-content">
+            <div class="card-title">
+              <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+            </div>
+            <div class="card-content-text">
+              <p>{{ .Date | time.Format ":date_medium" }}</p>
+              <p>{{ (or .Description .Summary) | plainify }}</p>
+            </div>
+          </div>
+        </article>
+      </li>
+    {{- end }}
+  {{- end }}
+</ul>
+

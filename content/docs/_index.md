@@ -2,6 +2,7 @@
 title: 文档
 weight: 1
 type: home
+hidden: true
 ---
 
 欢迎来到站点文档区。这里提供面向使用者与维护者的说明、指南与参考。

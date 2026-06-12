@@ -5,38 +5,53 @@ languageCode = "en"
 defaultContentLanguage = "en-us"
 
 
-SectionPagesMenu = "main"
-
 [[menu.main]] # config your menu              # 配置目录
 name = "Home"
 weight = 10
 identifier = "home"
 url = "/"
 
+[[menu.main]]
+name = "KJV Bible APP"
+weight = 20
+identifier = "kjv-bible-app"
+url = "/kjv-bible-app/"
 
 [[menu.main]]
-name = "Hugo"
+name = "TAke a break"
 weight = 30
-identifier = "tags"
-url = "https://andbible.com"
+identifier = "take-a-break"
+url = "/take-a-break/"
 
 [[menu.main]]
-name = "KJV"
+name = "CUV"
 weight = 40
-identifier = "kjv"
-url = "/android-apps/"
-
-[[menu.main]]
-name = "Docs"
-weight = 50
-identifier = "docs"
-url = "/docs/"
+identifier = "cuv"
+url = "/cuv/"
 
 [[menu.main]]
 name = "Apps"
-weight = 60
+weight = 50
 identifier = "apps"
 url = "/apps/"
+
+[[menu.main]]
+name = "Posts"
+weight = 55
+identifier = "posts"
+url = "/posts/"
+
+[[menu.main]]
+name = "KJV"
+weight = 60
+identifier = "kjv"
+url = "/kjv/"
+
+[[menu.main]]
+name = "Hugo"
+weight = 70
+identifier = "hugo"
+url = "https://andbible.com"
 
 
 Paginate = 20                     # this is set low for demonstrating with dummy content. Set to a higher number
@@ -76,6 +91,12 @@ rss = ""
 background_color_class = "bg-moon-gray"
 featured_image = "images/meng-ji-8BH_M-53CyA-unsplash.jpg"
 recent_posts_number = 4
+
+[[params.sidebarmenus]]
+type = "menu"
+identifier = "main"
+disableTitle = true
+main = true
 
 [markup]
   [markup.goldmark]

@@ -1,0 +1,24 @@
+{{- $page := .page -}}
+{{- $books := site.Data.books.books -}}
+
+{{- $bookPage := $page -}}
+{{- if and $page.IsPage $page.Parent (eq $page.Parent.Section "kjv") -}}
+  {{- $bookPage = $page.Parent -}}
+{{- end -}}
+{{- $currentBook := "" -}}
+{{- if and $bookPage (eq $bookPage.Section "kjv") (ne $bookPage.Title "KJV") -}}
+  {{- $currentBook = $bookPage.Title -}}
+{{- end -}}
+
+<li class="nav-title padding">KJV</li>
+<li data-nav-id="/kjv/"><a class="padding default-animation" href="/kjv/">KJV Home</a></li>
+<li class="nav-title padding">Old Testament</li>
+{{- range first 39 $books }}
+  {{- $href := printf "/kjv/%s/1/" (.name | urlize) -}}
+  <li class="{{ if eq .name $currentBook }}active{{ end }}" data-nav-id="{{ $href }}"><a class="padding default-animation" href="{{ $href }}">{{ .name }}</a></li>
+{{- end }}
+<li class="nav-title padding">New Testament</li>
+{{- range after 39 $books }}
+  {{- $href := printf "/kjv/%s/1/" (.name | urlize) -}}
+  <li class="{{ if eq .name $currentBook }}active{{ end }}" data-nav-id="{{ $href }}"><a class="padding default-animation" href="{{ $href }}">{{ .name }}</a></li>
+{{- end }}
