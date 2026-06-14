@@ -4,6 +4,8 @@ date: Fri, 06 Jun 2026 00:00:00 +0000
 draft: false
 tags: ["all", "take-a-break"]
 Author: [guanyc]
+url: "/take-a-break/privacy/"
+aliases: ["/take-a-break-privacy"]
 ---
 
 # Privacy Policy
