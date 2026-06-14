@@ -62,6 +62,6 @@ King James Version (KJV).
 No. Take a Break is designed to be simple and private.
 
 **Does the app collect personal data?**  
-Take a Break does not collect, store, or share personal information. No user accounts are required. All content is stored locally on your device. If you use platform-provided crash reports, those may be collected by Google under their policies.
+Take a Break does not require an account and does not directly collect personal information such as your name, phone number, or address. The app does use Firebase Analytics, Firebase Crashlytics, and Google AdMob, which may collect limited technical and usage data such as app interactions, device information, advertising identifiers, crash logs, diagnostics, and ad-related data so we can improve app stability, understand usage, and support the app with ads. If you make a purchase, payment processing is handled securely by Google Play.
 
 For more, see the Take a Break privacy policy: https://www.guanyc.com/take-a-break/privacy/
