@@ -81,23 +81,23 @@ Permission Details:
 • Storage permission: Used for data backup and export
 ## features
 
-{{< figure src="/images/winfirst/1.png" height="50%" width="50%" link="">}}
+{{< figure src="/images/winfirst/1.webp" height="50%" width="50%" link="">}}
 
-{{< figure src="/images/winfirst/2.png" height="50%" width="50%" link="">}}
+{{< figure src="/images/winfirst/2.webp" height="50%" width="50%" link="">}}
 
-{{< figure src="/images/winfirst/3.png" height="50%" width="50%" link="">}}
+{{< figure src="/images/winfirst/3.webp" height="50%" width="50%" link="">}}
 
-{{< figure src="/images/winfirst/4.png" height="50%" width="50%" link="">}}
+{{< figure src="/images/winfirst/4.webp" height="50%" width="50%" link="">}}
 
-{{< figure src="/images/winfirst/5.png" height="50%" width="50%" link="">}}
+{{< figure src="/images/winfirst/5.webp" height="50%" width="50%" link="">}}
 
-{{< figure src="/images/winfirst/6.png" height="50%" width="50%" link="">}}
+{{< figure src="/images/winfirst/6.webp" height="50%" width="50%" link="">}}
 
-{{< figure src="/images/winfirst/7.png" height="50%" width="50%" link="">}}
+{{< figure src="/images/winfirst/7.webp" height="50%" width="50%" link="">}}
 
-{{< figure src="/images/winfirst/8.png" height="50%" width="50%" link="">}}
+{{< figure src="/images/winfirst/8.webp" height="50%" width="50%" link="">}}
 
-{{< figure src="/images/winfirst/9.png" height="50%" width="50%" link="">}}
+{{< figure src="/images/winfirst/9.webp" height="50%" width="50%" link="">}}
 
 ## download link
 Google App Market[https://play.google.com/store/apps/details?id=com.guanyc.stock.discipline]

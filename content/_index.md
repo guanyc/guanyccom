@@ -13,7 +13,7 @@ Right now the clearest product families are:
 
 You can browse the app directory below, then jump deeper into product pages, Bible browsing, or article hubs.
 
-![Apps](/images/apps/apps-cover.jpg)
+![Apps](/images/apps/apps-cover.webp)
 
 {{< apps-directory >}}
 
@@ -22,6 +22,13 @@ You can browse the app directory below, then jump deeper into product pages, Bib
   title="KJV Guides & Articles"
   intro="This is where the KJV app line can connect to the homepage more naturally: practical articles around offline Bible reading, advanced verse search, reading plans, devotional rhythm, and sleep audio."
   limit="6"
+>}}
+
+{{< featured-posts
+  section="/posts/cuv-marketing"
+  title="漢語和合本文章與指南"
+  intro="CUV 這條內容線聚焦在更安靜的中文讀經體驗、較低壓的靈修入口，以及一款可以長期回來使用的和合本 App。"
+  limit="4"
 >}}
 
 ## Developer Page

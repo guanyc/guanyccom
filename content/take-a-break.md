@@ -36,17 +36,17 @@ Simply choose how you’re feeling, and Take a Break gives you a short, personal
 ## Screenshots
 
 <div style="display:flex;flex-wrap:wrap;gap:12px;align-items:flex-start">
-  <a href="/images/take-a-break/landing/takeabreak-landing-1.jpg" target="_blank" rel="noopener">
-    <img src="/images/take-a-break/landing/takeabreak-landing-1.jpg" alt="Take a Break screenshot 1" loading="lazy" decoding="async" style="width:240px;height:auto;border-radius:12px" />
+  <a href="/images/take-a-break/landing/takeabreak-landing-1.webp" target="_blank" rel="noopener">
+    <img src="/images/take-a-break/landing/takeabreak-landing-1.webp" alt="Take a Break screenshot 1" loading="lazy" decoding="async" style="width:240px;height:auto;border-radius:12px" />
   </a>
-  <a href="/images/take-a-break/landing/takeabreak-landing-2.jpg" target="_blank" rel="noopener">
-    <img src="/images/take-a-break/landing/takeabreak-landing-2.jpg" alt="Take a Break screenshot 2" loading="lazy" decoding="async" style="width:240px;height:auto;border-radius:12px" />
+  <a href="/images/take-a-break/landing/takeabreak-landing-2.webp" target="_blank" rel="noopener">
+    <img src="/images/take-a-break/landing/takeabreak-landing-2.webp" alt="Take a Break screenshot 2" loading="lazy" decoding="async" style="width:240px;height:auto;border-radius:12px" />
   </a>
-  <a href="/images/take-a-break/landing/takeabreak-landing-3.jpg" target="_blank" rel="noopener">
-    <img src="/images/take-a-break/landing/takeabreak-landing-3.jpg" alt="Take a Break screenshot 3" loading="lazy" decoding="async" style="width:240px;height:auto;border-radius:12px" />
+  <a href="/images/take-a-break/landing/takeabreak-landing-3.webp" target="_blank" rel="noopener">
+    <img src="/images/take-a-break/landing/takeabreak-landing-3.webp" alt="Take a Break screenshot 3" loading="lazy" decoding="async" style="width:240px;height:auto;border-radius:12px" />
   </a>
-  <a href="/images/take-a-break/landing/takeabreak-landing-4.jpg" target="_blank" rel="noopener">
-    <img src="/images/take-a-break/landing/takeabreak-landing-4.jpg" alt="Take a Break screenshot 4" loading="lazy" decoding="async" style="width:240px;height:auto;border-radius:12px" />
+  <a href="/images/take-a-break/landing/takeabreak-landing-4.webp" target="_blank" rel="noopener">
+    <img src="/images/take-a-break/landing/takeabreak-landing-4.webp" alt="Take a Break screenshot 4" loading="lazy" decoding="async" style="width:240px;height:auto;border-radius:12px" />
   </a>
 </div>
 

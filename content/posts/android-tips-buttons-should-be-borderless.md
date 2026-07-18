@@ -6,7 +6,7 @@ tags: []
 categories: []
 summary:
 description:
-featured_image: '/images/christopher-gower-m_HRfLhgABo-unsplash.jpg'
+featured_image: '/images/christopher-gower-m_HRfLhgABo-unsplash.webp'
 toc: true
 
 

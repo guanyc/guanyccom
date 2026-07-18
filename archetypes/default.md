@@ -6,7 +6,7 @@ tags: []
 categories: []
 summary:
 description:
-featured_image: '/images/meng-ji-8BH_M-53CyA-unsplash.jpg'
+featured_image: '/images/meng-ji-8BH_M-53CyA-unsplash.webp'
 toc: true
 
 
