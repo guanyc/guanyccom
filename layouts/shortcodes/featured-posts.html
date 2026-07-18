@@ -1,0 +1,36 @@
+{{- $sectionPath := .Get "section" -}}
+{{- $title := .Get "title" | default "Featured Articles" -}}
+{{- $intro := .Get "intro" -}}
+{{- $limit := .Get "limit" | default "4" -}}
+{{- $section := site.GetPage $sectionPath -}}
+
+{{- with $section -}}
+  {{- $pages := first (int $limit) (sort .RegularPages.ByDate.Reverse "Date" "desc") -}}
+  {{- if gt (len $pages) 0 -}}
+    <section class="featured-posts">
+      <div class="featured-posts__header">
+        <p class="featured-posts__eyebrow">Content Hub</p>
+        <h2 class="featured-posts__title">{{ $title }}</h2>
+        {{- with $intro }}
+          <p class="featured-posts__intro">{{ . }}</p>
+        {{- end }}
+      </div>
+
+      <div class="featured-posts__grid">
+        {{- range $pages }}
+          <article class="featured-posts__card">
+            <h3 class="featured-posts__card-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+            {{- with .Params.description }}
+              <p class="featured-posts__card-summary">{{ . }}</p>
+            {{- end }}
+            <a class="featured-posts__card-link" href="{{ .RelPermalink }}">Read article</a>
+          </article>
+        {{- end }}
+      </div>
+
+      <p class="featured-posts__footer">
+        <a href="{{ .RelPermalink }}">View all articles</a>
+      </p>
+    </section>
+  {{- end -}}
+{{- end -}}

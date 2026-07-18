@@ -1,0 +1,346 @@
+.app-directory {
+  display: grid;
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.app-card {
+  background: #fff;
+  border: 1px solid #d7d7d7;
+  border-radius: 18px;
+  box-shadow: 0 10px 30px rgba(15, 23, 42, 0.06);
+  padding: 1.25rem;
+}
+
+.app-card__header > *:first-child {
+  margin-top: 0;
+}
+
+.app-card__header > *:last-child {
+  margin-bottom: 0;
+}
+
+.app-card__eyebrow {
+  color: #52606d;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  margin-bottom: 0.45rem;
+  text-transform: uppercase;
+}
+
+.app-card__title {
+  font-size: 1.55rem;
+  line-height: 1.2;
+  margin: 0 0 0.5rem;
+}
+
+.app-card__title a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.app-card__title a:hover {
+  text-decoration: underline;
+}
+
+.app-card__summary {
+  color: #334155;
+  margin: 0;
+}
+
+.app-card__meta {
+  display: grid;
+  gap: 0.75rem;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  margin: 1rem 0 0;
+}
+
+.app-card__meta dt {
+  color: #52606d;
+  font-size: 0.8rem;
+  font-weight: 700;
+  margin-bottom: 0.15rem;
+  text-transform: uppercase;
+}
+
+.app-card__meta dd {
+  margin: 0;
+}
+
+.app-card__features {
+  margin: 1rem 0 0;
+  padding-left: 1.2rem;
+}
+
+.app-card__features li + li {
+  margin-top: 0.4rem;
+}
+
+.app-card__tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.app-tag {
+  background: #eef2ff;
+  border-radius: 999px;
+  color: #334155;
+  display: inline-flex;
+  font-size: 0.82rem;
+  padding: 0.25rem 0.65rem;
+}
+
+.app-card__links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 1.1rem;
+}
+
+.app-link {
+  background: #f8fafc;
+  border: 1px solid #cbd5e1;
+  border-radius: 999px;
+  color: #0f172a;
+  display: inline-flex;
+  font-size: 0.92rem;
+  font-weight: 600;
+  padding: 0.5rem 0.85rem;
+  text-decoration: none;
+}
+
+.app-link:hover {
+  background: #eef2ff;
+  text-decoration: none;
+}
+
+.app-link--primary {
+  background: #0f172a;
+  border-color: #0f172a;
+  color: #fff;
+}
+
+.app-link--primary:hover {
+  background: #1e293b;
+  color: #fff;
+}
+
+.featured-posts {
+  margin-top: 2.5rem;
+}
+
+.featured-posts__header > *:first-child {
+  margin-top: 0;
+}
+
+.featured-posts__eyebrow {
+  color: inherit;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  margin-bottom: 0.45rem;
+  opacity: 0.78;
+  text-transform: uppercase;
+}
+
+.featured-posts__title {
+  margin-bottom: 0.5rem;
+}
+
+.featured-posts__intro {
+  color: inherit;
+  margin-top: 0;
+  opacity: 0.82;
+}
+
+.featured-posts__grid {
+  display: grid;
+  gap: 1rem;
+  margin-top: 1.25rem;
+}
+
+.featured-posts__card {
+  background: #fff;
+  border: 1px solid #d7d7d7;
+  border-radius: 18px;
+  color: #0f172a;
+  box-shadow: 0 10px 30px rgba(15, 23, 42, 0.04);
+  padding: 1.1rem 1.15rem;
+}
+
+.featured-posts__card-title {
+  color: #0f172a;
+  font-size: 1.1rem;
+  line-height: 1.35;
+  margin: 0 0 0.45rem;
+}
+
+.featured-posts__card-title a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.featured-posts__card-title a:hover {
+  text-decoration: underline;
+}
+
+.featured-posts__card-summary {
+  color: #334155;
+  margin: 0;
+}
+
+.featured-posts__card-link {
+  display: inline-flex;
+  font-size: 0.92rem;
+  font-weight: 600;
+  margin-top: 0.85rem;
+  text-decoration: none;
+}
+
+.featured-posts__card-link:hover {
+  text-decoration: underline;
+}
+
+.featured-posts__footer {
+  margin-top: 1rem;
+}
+
+.guide-cards {
+  display: grid;
+  gap: 1rem;
+  margin-top: 1.25rem;
+}
+
+.guide-card {
+  background: #fff;
+  border: 1px solid #d7d7d7;
+  border-radius: 18px;
+  box-shadow: 0 10px 30px rgba(15, 23, 42, 0.04);
+  padding: 1.1rem 1.15rem;
+}
+
+.guide-card--featured {
+  background: linear-gradient(180deg, #f8fafc 0%, #ffffff 100%);
+  border-color: #cbd5e1;
+}
+
+.guide-card__eyebrow {
+  color: #52606d;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  margin: 0 0 0.45rem;
+  text-transform: uppercase;
+}
+
+.guide-card__title {
+  font-size: 1.1rem;
+  line-height: 1.35;
+  margin: 0 0 0.45rem;
+}
+
+.guide-card__title a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.guide-card__title a:hover {
+  text-decoration: underline;
+}
+
+.guide-card__summary {
+  color: #334155;
+  margin: 0;
+}
+
+.guide-card__link {
+  display: inline-flex;
+  font-size: 0.92rem;
+  font-weight: 600;
+  margin-top: 0.85rem;
+  text-decoration: none;
+}
+
+.guide-card__link:hover {
+  text-decoration: underline;
+}
+
+@media (prefers-color-scheme: dark) {
+  .app-card {
+    background: #111827;
+    border-color: #334155;
+    color: #e5e7eb;
+    box-shadow: 0 10px 30px rgba(2, 6, 23, 0.35);
+  }
+
+  .app-card__eyebrow,
+  .app-card__meta dt {
+    color: #cbd5e1;
+  }
+
+  .app-card__summary {
+    color: #cbd5e1;
+  }
+
+  .app-tag {
+    background: #1e293b;
+    color: #dbeafe;
+  }
+
+  .app-link {
+    background: #1f2937;
+    border-color: #475569;
+    color: #e5e7eb;
+  }
+
+  .app-link:hover {
+    background: #273449;
+  }
+
+  .app-link--primary {
+    background: #2563eb;
+    border-color: #2563eb;
+    color: #eff6ff;
+  }
+
+  .app-link--primary:hover {
+    background: #1d4ed8;
+    color: #eff6ff;
+  }
+
+  .featured-posts__card {
+    background: #111827;
+    border-color: #334155;
+    color: #e5e7eb;
+    box-shadow: 0 10px 30px rgba(2, 6, 23, 0.35);
+  }
+
+  .featured-posts__card-title {
+    color: #f8fafc;
+  }
+
+  .featured-posts__card-summary {
+    color: #cbd5e1;
+  }
+
+  .featured-posts__card-link {
+    color: #93c5fd;
+  }
+}
+
+@media (min-width: 880px) {
+  .app-directory {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .featured-posts__grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .guide-cards {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}

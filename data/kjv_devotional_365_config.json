@@ -1,0 +1,162 @@
+{
+  "id": "kjv_devotional_365",
+  "product_line": "kjv",
+  "feature_key": "devotional_365_journey",
+  "name": "365-Day Devotional Journey",
+  "short_name": "365 Devotional",
+  "status": "drafted_for_website_positioning",
+  "source_asset": {
+    "app_project_path": "/Users/guanyc/StudioProjects/MyApplication",
+    "plan_file": "/Users/guanyc/StudioProjects/MyApplication/app/src/main/assets/plan_devotional_365_days.json",
+    "plan_list_file": "/Users/guanyc/StudioProjects/MyApplication/app/src/main/assets/plan_list.json",
+    "plan_kind": "MULTI_THEME_JOURNEY",
+    "plan_type": "DEVOTIONAL",
+    "duration_days": 365,
+    "is_circular": true,
+    "featured": true,
+    "is_pro": true
+  },
+  "core_positioning": {
+    "one_liner": "A year-long devotional journey with one verse per day, weekly themes, and a gentle formation rhythm.",
+    "not_just": [
+      "not just a standard 365-day Bible reading checklist",
+      "not just a random devotional every day",
+      "not just a long plan with no inner rhythm"
+    ],
+    "is_actually": [
+      "a year-shaped faith journey",
+      "a weekly themed spiritual rhythm",
+      "a daily one-verse entry with varied devotional form",
+      "a gradual movement from first trust to steadier spiritual maturity"
+    ]
+  },
+  "seo": {
+    "primary_keywords": [
+      "365-day devotional",
+      "365 day devotional",
+      "365-day devotional journey",
+      "daily devotional plan"
+    ],
+    "secondary_keywords": [
+      "year-long devotional journey",
+      "one verse a day devotional",
+      "daily devotional app",
+      "KJV devotional plan",
+      "365 devotional journey",
+      "Christian growth journey"
+    ],
+    "positioning_phrases": [
+      "weekly themes",
+      "gentle weekly rhythm",
+      "one verse per day",
+      "faith journey",
+      "spiritual growth over a year"
+    ]
+  },
+  "structure": {
+    "annual_rhythm": {
+      "enabled": true,
+      "goal": "Make the plan feel like a full-year faith journey rather than 365 isolated entries.",
+      "formation_arc": [
+        {
+          "phase": "beginning_to_trust",
+          "focus": "Move the user from unfamiliarity or instability into trust, God's presence, faith, prayer, and hope."
+        },
+        {
+          "phase": "being_formed",
+          "focus": "Lead the user into guidance, peace, gratitude, love, patience, wisdom, obedience, and humility."
+        },
+        {
+          "phase": "walking_through_real_life",
+          "focus": "Help the user live through trials, perseverance, courage, self-control, serving, temptation, repentance, forgiveness, grace, and renewal."
+        },
+        {
+          "phase": "steadier_maturity",
+          "focus": "Bring the user toward surrender, waiting, endurance, protection, contentment, generosity, salvation, eternal hope, rest, truth, and finishing well."
+        }
+      ]
+    },
+    "weekly_rhythm": {
+      "enabled": true,
+      "goal": "Give each week a spiritual center so users are not starting from zero every day.",
+      "weekly_unit": "theme_week",
+      "example_week_1_theme": "Trusting God",
+      "example_week_2_theme": "God's Presence",
+      "sample_theme_progression": [
+        "Trusting God",
+        "God's Presence",
+        "Faith",
+        "Prayer",
+        "Hope",
+        "Guidance",
+        "Peace",
+        "God's Love",
+        "Wisdom",
+        "Perseverance",
+        "Forgiveness",
+        "Grace",
+        "Renewal",
+        "Rest in God",
+        "Finishing Well"
+      ]
+    },
+    "daily_form": {
+      "entry_style": "one_verse_per_day",
+      "goal": "Keep the plan lightweight enough for daily return while preserving inner variety.",
+      "slot_types": [
+        "encouragement",
+        "insight",
+        "teaching",
+        "reflection",
+        "deep_challenge",
+        "application",
+        "prayer_rest"
+      ]
+    }
+  },
+  "content_messaging": {
+    "hero_title": "A 365-Day Devotional Journey for Real Life",
+    "hero_subtitle": "One verse per day, weekly themes, and a gentle formation rhythm that can carry a full year.",
+    "benefit_points": [
+      "Turns a long devotional plan into a guided faith journey",
+      "Builds continuity through weekly themes instead of isolated days",
+      "Leads users from first trust into deeper steadiness over time",
+      "Keeps daily devotional reading small enough to return to consistently",
+      "Creates variety through different daily devotional forms",
+      "Makes growth feel gradual, not abrupt or overloaded"
+    ],
+    "comparison_points": [
+      {
+        "label": "Standard 365 plan",
+        "value": "coverage, schedule, checklist"
+      },
+      {
+        "label": "365 devotional journey",
+        "value": "formation arc, weekly themes, daily devotional form"
+      }
+    ]
+  },
+  "website_use_cases": {
+    "landing_section": true,
+    "feature_card": true,
+    "comparison_table": true,
+    "seo_article": true,
+    "apps_directory_summary": true
+  },
+  "article_angles": [
+    "Why a 365-day devotional journey feels different from a regular reading plan",
+    "What is a 365-day devotional?",
+    "A year of devotionals: annual rhythm, weekly themes, and daily form",
+    "Why one verse per day can still carry a full devotional year"
+  ],
+  "cta_targets": {
+    "google_play": "https://play.google.com/store/apps/details?id=com.gyc.ace.kjv",
+    "feature_article": "/posts/kjv-marketing/why-a-365-day-devotional-journey-feels-different-from-a-regular-reading-plan/",
+    "devotional_features": "/posts/kjv-bible-app-daily-devotional-features/"
+  },
+  "notes": [
+    "This config is for website positioning and content planning, not the app runtime plan definition.",
+    "Here, annual rhythm means a year-long spiritual formation arc, not a liturgical calendar or holiday schedule.",
+    "If later needed, the structure can be expanded with richer phase labels, sample weekly themes, and UI copy variants."
+  ]
+}

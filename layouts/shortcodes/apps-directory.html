@@ -1,0 +1,82 @@
+{{- $apps := site.Data.apps.apps -}}
+
+<div class="app-directory">
+  {{- range $apps }}
+    {{- $app := . -}}
+    {{- $marketingPage := "" -}}
+    {{- with $app.links.marketing }}
+      {{- $marketingPage = site.GetPage . -}}
+    {{- end }}
+    <article class="app-card">
+      <div class="app-card__header">
+        <p class="app-card__eyebrow">{{ $app.family }}</p>
+        <h2 class="app-card__title">
+          {{- with $app.links.promo -}}
+            <a href="{{ . }}">{{ $app.name }}</a>
+          {{- else -}}
+            {{ $app.name }}
+          {{- end -}}
+        </h2>
+        <p class="app-card__summary">{{ $app.summary }}</p>
+      </div>
+
+      <dl class="app-card__meta">
+        {{- with $app.package }}
+          <div>
+            <dt>Package</dt>
+            <dd><code>{{ . }}</code></dd>
+          </div>
+        {{- end }}
+        {{- with $app.category }}
+          <div>
+            <dt>Category</dt>
+            <dd>{{ . }}</dd>
+          </div>
+        {{- end }}
+      </dl>
+
+      {{- with $app.features }}
+        <ul class="app-card__features">
+          {{- range . }}
+            <li>{{ . }}</li>
+          {{- end }}
+        </ul>
+      {{- end }}
+
+      {{- with $app.tags }}
+        <div class="app-card__tags">
+          {{- range . }}
+            <span class="app-tag">{{ . }}</span>
+          {{- end }}
+        </div>
+      {{- end }}
+
+      <div class="app-card__links">
+        {{- with $app.links.promo }}
+          <a class="app-link app-link--primary" href="{{ . }}">Promo Page</a>
+        {{- end }}
+        {{- with $app.links.browser }}
+          <a class="app-link" href="{{ . }}">Bible Browser</a>
+        {{- end }}
+        {{- with $app.links.help }}
+          <a class="app-link" href="{{ . }}">Help & Guides</a>
+        {{- end }}
+        {{- with $app.links.devotional }}
+          <a class="app-link" href="{{ . }}">Devotional</a>
+        {{- end }}
+        {{- with $app.links.overview }}
+          <a class="app-link" href="{{ . }}">Overview</a>
+        {{- end }}
+        {{- with $marketingPage }}
+          <a class="app-link" href="{{ .RelPermalink }}">Guides & Articles</a>
+        {{- end }}
+        {{- with $app.links.play }}
+          <a class="app-link" href="{{ . }}">Google Play</a>
+        {{- end }}
+        {{- with $app.links.privacy }}
+          <a class="app-link" href="{{ . }}">Privacy</a>
+        {{- end }}
+      </div>
+    </article>
+  {{- end }}
+</div>

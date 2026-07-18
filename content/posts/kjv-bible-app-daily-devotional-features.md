@@ -27,6 +27,15 @@ Inside the app, each devotional follows a clear structure:
 
 It’s designed to be quick enough for a morning routine, but still meaningful enough to carry with you throughout the day.
 
+<div style="display:flex;flex-wrap:wrap;gap:16px;margin:16px 0 20px;">
+  <img src="/images/kjv-screenshots/morning_votd.webp" alt="Morning verse of the day screen" loading="lazy" decoding="async" style="width:min(100%,240px);height:auto;border-radius:16px;" />
+  <img src="/images/kjv-screenshots/day_devotional.webp" alt="Day devotional screen" loading="lazy" decoding="async" style="width:min(100%,240px);height:auto;border-radius:16px;" />
+  <img src="/images/kjv-screenshots/evening_votd.webp" alt="Evening verse of the day screen" loading="lazy" decoding="async" style="width:min(100%,240px);height:auto;border-radius:16px;" />
+  <img src="/images/kjv-screenshots/sleep_audio_entry.webp" alt="Sleep audio entry screen" loading="lazy" decoding="async" style="width:min(100%,240px);height:auto;border-radius:16px;" />
+</div>
+
+<p style="margin:-4px 0 20px;color:#64748b;font-size:0.95rem;">The four surfaces above make the daily rhythm easier to see: morning, day, evening, and the softer bedtime layer.</p>
+
 ## Verse of the Day (VOTD)
 
 Sometimes you don’t need to decide where to start.
@@ -55,6 +64,15 @@ Browse **topic devotionals** like:
 - Forgiveness
 
 It’s a good fit for people who like structured themes, small group studies, or a personal “one theme at a time” approach.
+
+<div style="display:flex;flex-wrap:wrap;gap:16px;margin:16px 0 20px;">
+  <img src="/images/kjv-screenshots/reading_plan_list.webp" alt="Reading plan list screen" loading="lazy" decoding="async" style="width:min(100%,240px);height:auto;border-radius:16px;" />
+  <img src="/images/kjv-screenshots/reading_plan_detail.webp" alt="Reading plan detail screen" loading="lazy" decoding="async" style="width:min(100%,240px);height:auto;border-radius:16px;" />
+  <img src="/images/kjv-screenshots/advanced_search_filters.webp" alt="Advanced search filters screen" loading="lazy" decoding="async" style="width:min(100%,240px);height:auto;border-radius:16px;" />
+  <img src="/images/kjv-screenshots/offline_bible_reader.webp" alt="Offline Bible reading screen" loading="lazy" decoding="async" style="width:min(100%,240px);height:auto;border-radius:16px;" />
+</div>
+
+<p style="margin:-4px 0 20px;color:#64748b;font-size:0.95rem;">These feature screens show that the app is not only devotional content, but also reading plans, stronger search, and clean offline reading.</p>
 
 ## Take a Break (for the days you can’t do much)
 
@@ -95,3 +113,11 @@ If you want a **King James Bible app** that supports daily devotional reading wi
 
 - Google Play: https://play.google.com/store/apps/details?id=com.gyc.ace.kjv
 - Apps page: https://www.guanyc.com/apps/
+
+If you want the broader product ideas and feature guides in one place, see:
+
+- [KJV Help & Guides](/kjv/help/)
+- [What Is Take a Break in a Bible App?](/posts/kjv-marketing/what-is-take-a-break-in-a-bible-app/)
+- [Why a Daily Devotional Should Be Short Enough for Real Life](/posts/kjv-marketing/why-a-daily-devotional-should-be-short-enough-for-real-life/)
+- [What Makes Bible Search More Useful Than a Simple Keyword Box?](/posts/kjv-marketing/what-makes-bible-search-more-useful-than-a-simple-keyword-box/)
+- [What Makes Christian Sleep Audio Actually Help You Fall Asleep?](/posts/kjv-marketing/what-makes-christian-sleep-audio-actually-help-you-fall-asleep/)

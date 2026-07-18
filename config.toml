@@ -12,13 +12,19 @@ identifier = "home"
 url = "/"
 
 [[menu.main]]
-name = "KJV Bible APP"
+name = "Bible KJV"
 weight = 20
 identifier = "kjv-bible-app"
 url = "/kjv-bible-app/"
 
 [[menu.main]]
-name = "TAke a break"
+name = "KJV Articles"
+weight = 29
+identifier = "kjv-articles"
+url = "/posts/kjv-marketing/"
+
+[[menu.main]]
+name = "Take a Break"
 weight = 30
 identifier = "take-a-break"
 url = "/take-a-break/"

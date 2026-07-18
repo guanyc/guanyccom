@@ -20,6 +20,15 @@ Read the King James Version anytime — no internet required.
 
 More than a Bible app, this is a quiet Christian emotional companion: a guided devotional system to help you build a daily spiritual rhythm through Scripture, reflection, and prayer—without pressure, noise, or distraction.
 
+<div style="display:flex;flex-wrap:wrap;gap:16px;margin:16px 0 24px;">
+  <img src="/images/kjv-screenshots/offline_bible_reader.webp" alt="Offline KJV Bible reader screen" loading="lazy" decoding="async" style="width:min(100%,240px);height:auto;border-radius:16px;" />
+  <img src="/images/kjv-screenshots/evening_votd.webp" alt="Evening verse screen" loading="lazy" decoding="async" style="width:min(100%,240px);height:auto;border-radius:16px;" />
+  <img src="/images/kjv-screenshots/reading_plan_list.webp" alt="Reading plan list screen" loading="lazy" decoding="async" style="width:min(100%,240px);height:auto;border-radius:16px;" />
+  <img src="/images/kjv-screenshots/advanced_search_topic.webp" alt="Topic-based search screen" loading="lazy" decoding="async" style="width:min(100%,240px);height:auto;border-radius:16px;" />
+</div>
+
+<p style="margin:-8px 0 24px;color:#64748b;font-size:0.95rem;">This overview shows how offline reading, evening rhythm, guided plans, and topic-based search live inside one KJV app experience.</p>
+
 ## 🙏 DAILY DEVOTIONAL — GUIDED THROUGH YOUR REAL LIFE
 
 - “How are you feeling today?” — discover verses that speak to your emotions
@@ -128,3 +137,13 @@ Free to use, with optional upgrades:
 Whether you're reading, reflecting, or searching for peace, this app helps you stay connected to God’s Word every day.
 
 Read. Reflect. Pray. Grow.
+
+## Need help understanding how the KJV app is designed?
+
+If you want a clearer guide to the app's core ideas, features, and devotional rhythm, start here:
+
+- [KJV Help & Guides](/kjv/help/)
+- [What Do People Need From a Bible App Today?](/posts/kjv-marketing/what-do-people-need-from-a-bible-app-today/)
+- [A Bible App for Real Life, Not Just Research](/posts/kjv-marketing/a-bible-app-for-real-life-not-just-research/)
+- [What Makes Bible Search More Useful Than a Simple Keyword Box?](/posts/kjv-marketing/what-makes-bible-search-more-useful-than-a-simple-keyword-box/)
+- [What Makes Christian Sleep Audio Actually Help You Fall Asleep?](/posts/kjv-marketing/what-makes-christian-sleep-audio-actually-help-you-fall-asleep/)

@@ -1,0 +1,105 @@
+apps:
+  - key: take-a-break
+    name: "Take a Break"
+    family: "Devotional"
+    summary: "A quick Bible-based devotional for moments when life feels heavy. Find peace in one minute."
+    package: "com.guanyc.takeabreak"
+    category: "Productivity / Lifestyle"
+    tags:
+      - "Bible"
+      - "Devotional"
+      - "Christian"
+      - "Faith"
+      - "Prayer"
+      - "KJV"
+    features:
+      - "Emotion-based devotionals for peace, strength, comfort, and guidance"
+      - "Short Bible verse + reflection + prayer flow"
+      - "Optional audio playback and easy sharing tools"
+    links:
+      promo: "/take-a-break/"
+      play: "https://play.google.com/store/apps/details?id=com.guanyc.takeabreak"
+      privacy: "https://www.guanyc.com/take-a-break/privacy/"
+
+  - key: kjv
+    name: "Bible KJV - Daily Devotional"
+    family: "Bible + Devotional"
+    summary: "Offline KJV Bible with daily devotionals, audio, reading plans, and a guided spiritual rhythm."
+    package: "com.gyc.ace.kjv"
+    category: "Books & Reference"
+    tags:
+      - "KJV"
+      - "Bible"
+      - "Devotional"
+      - "Reading Plan"
+      - "Audio"
+    features:
+      - "Full offline KJV Bible with fast book/chapter browsing"
+      - "Verse + Meaning + Reflection + Prayer devotional flow with evening rhythm"
+      - "Advanced search, richer reading plans, seasonal anchors, sleep audio, bookmarks, and audio"
+    links:
+      play: "https://play.google.com/store/apps/details?id=com.gyc.ace.kjv"
+      browser: "/kjv/"
+      help: "/kjv/help/"
+      devotional: "/posts/kjv-bible-app-daily-devotional-features/"
+      overview: "/posts/kjv-bible-app-daily-devotional-intro/"
+      marketing: "/posts/kjv-marketing/"
+      privacy: "https://www.guanyc.com/privacy/"
+
+  - key: cuv
+    name: "Chinese Bible (CUV)"
+    family: "Bible + Devotional"
+    summary: "Read the Chinese Union Version (CUV 和合本) Bible with emotion-based devotionals and a calm reading experience."
+    package: "com.gyc.ace.bible"
+    category: "Books & Reference"
+    tags:
+      - "CUV"
+      - "Chinese Bible"
+      - "Devotional"
+      - "Reading Plan"
+      - "Audio"
+    features:
+      - "Full CUV Bible with search, bookmarks, highlights, and verse sharing"
+      - "Emotion-based devotionals and Verse of the Day entry points"
+      - "A long-running Chinese Bible app available since 2010"
+    links:
+      promo: "/cuv/"
+      play: "https://play.google.com/store/apps/details?id=com.gyc.ace.bible"
+      privacy: "https://www.guanyc.com/privacy/"
+      marketing: "/posts/cuv-marketing/"
+
+  - key: rvr
+    name: "RVR Bible"
+    family: "Bible + Devotional"
+    summary: "Reserved for a future Spanish Bible product line with room for promo pages, scripture browsing, and devotional browsing."
+    package: ""
+    category: "Planned"
+    tags:
+      - "RVR"
+      - "Bible"
+      - "Devotional"
+      - "Planned"
+    features:
+      - "App directory slot prepared for a future RVR rollout"
+      - "Supports separate promo, browser, and devotional entry points"
+      - "Keeps information architecture aligned with KJV and CUV"
+    links: {}
+
+  - key: hanzinova
+    name: "HanziNova: HSK Chinese Writing"
+    family: "Education"
+    summary: "Practice New HSK handwriting with stroke order, Mi-grid writing, and smart review."
+    package: "com.guanyc.hanzinova.hanziwrite"
+    category: "Education"
+    tags:
+      - "Chinese"
+      - "HSK"
+      - "Handwriting"
+      - "Education"
+    features:
+      - "Stroke order animations and Mi-grid writing practice"
+      - "Radicals, structure learning, and smart review tools"
+      - "Built for phone and tablet practice sessions"
+    links:
+      play: "https://play.google.com/store/apps/details?id=com.guanyc.hanzinova.hanziwrite"
+      privacy: "https://www.guanyc.com/hanzinova-hanziwriter-privacy/"
