@@ -64,11 +64,12 @@ If it is done well, it actually makes the reading easier to enter.
 Here is what that richer plan presentation can look like in the app:
 
 <div style="display:flex;flex-wrap:wrap;gap:16px;margin:16px 0 20px;">
+  <img src="/images/kjv-screenshots/marketing-b/plans.webp" alt="KJV reading plans overview screen" loading="lazy" decoding="async" style="width:min(100%,320px);height:auto;border-radius:16px;" />
   <img src="/images/kjv-screenshots/reading_plan_list.webp" alt="Reading plan list in the KJV app" loading="lazy" decoding="async" style="width:min(100%,320px);height:auto;border-radius:16px;" />
   <img src="/images/kjv-screenshots/reading_plan_detail.webp" alt="Reading plan detail in the KJV app" loading="lazy" decoding="async" style="width:min(100%,320px);height:auto;border-radius:16px;" />
 </div>
 
-<p style="margin:-4px 0 20px;color:#64748b;font-size:0.95rem;">The plan surfaces feel more like guided tracks with their own structure, not just a box to tick for the day.</p>
+<p style="margin:-4px 0 20px;color:#64748b;font-size:0.95rem;">Taken together, these plan surfaces feel more like guided tracks with their own structure, pacing, and invitation to keep going, not just a box to tick for the day.</p>
 
 ## Devotional journeys can lower pressure without becoming shallow
 
@@ -105,6 +106,8 @@ That kind of plan can carry:
 - a gradual spiritual arc
 - varied daily devotional forms
 - a gentler pace people can realistically return to
+
+It can also feel more aligned with the larger KJV promise: not only to give you reading tasks, but to help you read, reflect, pray, and grow through the changing seasons of ordinary life.
 
 So the plan becomes more than a schedule.
 
