@@ -20,6 +20,12 @@ That is why **Bible verse search** should do more than act like a simple keyword
 
 In a really useful **KJV Bible app**, search should help people get back into Scripture faster, even when their memory is partial and their need is more situational than exact.
 
+<div style="margin:16px 0 20px;">
+  <img src="/images/kjv-screenshots/marketing-b/search.webp" alt="KJV search screen" loading="lazy" decoding="async" style="width:min(100%,360px);height:auto;border-radius:16px;" />
+</div>
+
+<p style="margin:-4px 0 20px;color:#64748b;font-size:0.95rem;">The point is not only to match words. A better search entry helps people move quickly from a remembered phrase, a need, or a reference back into the Bible itself.</p>
+
 ## Exact match search is only the starting point
 
 Of course, direct search still matters.

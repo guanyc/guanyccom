@@ -9,7 +9,7 @@ Author: [guanyc]
 ---
 
 <div style="margin:16px 0">
-  <img src="/images/kjvss/hero-banner.webp" alt="KJV Bible Search hero banner" loading="lazy" decoding="async" style="width:100%;height:auto;border-radius:16px" />
+  <img src="/images/kjv-screenshots/marketing-b/feature_graphic.webp" alt="KJV Bible feature graphic" loading="lazy" decoding="async" style="width:100%;height:auto;border-radius:16px" />
 </div>
 
 ## ✨ OFFLINE KJV BIBLE WITH DAILY DEVOTIONALS, AUDIO, AND GUIDED SPIRITUAL RHYTHM
@@ -18,22 +18,27 @@ A fast, free offline KJV Bible app designed for both Bible reading and daily dev
 
 Read the King James Version anytime — no internet required.
 
-More than a Bible app, this is a quiet Christian emotional companion: a guided devotional system to help you build a daily spiritual rhythm through Scripture, reflection, and prayer—without pressure, noise, or distraction.
+More than a Bible app, this is a guided KJV experience shaped around the real moments of a normal day: read Scripture clearly, reflect when life feels crowded, pray simply, and keep growing without pressure, noise, or distraction.
+
+In that sense, it is not only a Bible app with extra features.
+
+It is a KJV Bible made for every moment of your day.
 
 <div style="display:flex;flex-wrap:wrap;gap:16px;margin:16px 0 24px;">
-  <img src="/images/kjv-screenshots/offline_bible_reader.webp" alt="Offline KJV Bible reader screen" loading="lazy" decoding="async" style="width:min(100%,240px);height:auto;border-radius:16px;" />
-  <img src="/images/kjv-screenshots/evening_votd.webp" alt="Evening verse screen" loading="lazy" decoding="async" style="width:min(100%,240px);height:auto;border-radius:16px;" />
-  <img src="/images/kjv-screenshots/reading_plan_list.webp" alt="Reading plan list screen" loading="lazy" decoding="async" style="width:min(100%,240px);height:auto;border-radius:16px;" />
-  <img src="/images/kjv-screenshots/advanced_search_topic.webp" alt="Topic-based search screen" loading="lazy" decoding="async" style="width:min(100%,240px);height:auto;border-radius:16px;" />
+  <img src="/images/kjv-screenshots/marketing-b/home.webp" alt="KJV app home screen" loading="lazy" decoding="async" style="width:min(100%,240px);height:auto;border-radius:16px;" />
+  <img src="/images/kjv-screenshots/marketing-b/reader.webp" alt="KJV Bible reader screen" loading="lazy" decoding="async" style="width:min(100%,240px);height:auto;border-radius:16px;" />
+  <img src="/images/kjv-screenshots/marketing-b/reflection.webp" alt="KJV reflection entry screen" loading="lazy" decoding="async" style="width:min(100%,240px);height:auto;border-radius:16px;" />
+  <img src="/images/kjv-screenshots/marketing-b/plans.webp" alt="KJV reading plans screen" loading="lazy" decoding="async" style="width:min(100%,240px);height:auto;border-radius:16px;" />
 </div>
 
-<p style="margin:-8px 0 24px;color:#64748b;font-size:0.95rem;">This overview shows how offline reading, evening rhythm, guided plans, and topic-based search live inside one KJV app experience.</p>
+<p style="margin:-8px 0 24px;color:#64748b;font-size:0.95rem;">This opening set shows the larger KJV idea more clearly: a calm home, a readable Bible, a word for the moment you are in, and guided plans that help daily rhythm take root.</p>
 
 ## 🙏 DAILY DEVOTIONAL — GUIDED THROUGH YOUR REAL LIFE
 
 - “How are you feeling today?” — discover verses that speak to your emotions
 - Emotion-based devotionals for peace, anxiety, strength, hope, and comfort
 - Each devotional includes Verse + Meaning + Reflection + Prayer
+- Mornings can remind, daytime can steady, evening can gather your heart, and bedtime can lead you toward rest
 - Topic-based guidance: Faith, Love, Forgiveness, Wisdom
 - Designed to help you apply God’s Word in daily life
 - A quiet Christian emotional companion that grows with you

@@ -19,6 +19,10 @@ It is:
 
 In other words, a strong **offline KJV Bible app** should do more than display the text. It should also help with **Bible verse search**, devotional rhythm, and the moments when life feels uneven.
 
+That is why the better question is not only whether the Bible is available offline.
+
+It is whether the app lets you open Scripture calmly, move through it easily, and stay close to it across the different moments of your day.
+
 ## What actually matters in a KJV Bible app
 
 Many Bible apps can list the same translation.
@@ -41,8 +45,10 @@ For many people, offline reading is not a bonus feature. It is the baseline.
 Here is what that offline reading surface can look like in the app:
 
 <div style="margin:16px 0 20px;">
-  <img src="/images/kjv-screenshots/offline_bible_reader.webp" alt="Offline KJV Bible reading screen in the app" loading="lazy" decoding="async" style="width:min(100%,360px);height:auto;border-radius:16px;" />
+  <img src="/images/kjv-screenshots/marketing-b/reader.webp" alt="KJV Bible reader screen in the app" loading="lazy" decoding="async" style="width:min(100%,360px);height:auto;border-radius:16px;" />
 </div>
+
+<p style="margin:-4px 0 20px;color:#64748b;font-size:0.95rem;">Offline access matters most when the reading surface itself feels calm and immediate: open the text, move chapter by chapter, and stay with Scripture without friction.</p>
 
 ### 2. Fast navigation
 

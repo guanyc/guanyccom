@@ -25,6 +25,8 @@ Because most spiritual life does not happen in ideal study conditions.
 
 It happens in real life.
 
+That is also why a better KJV app should feel like it has a word for the moment you are in, not just a database waiting to be queried.
+
 ## Real life is where most Bible-app moments happen
 
 Real life looks like:
@@ -115,6 +117,14 @@ It is often where faithful use begins.
 ## What this looks like in actual devotional content
 
 This is easier to understand with concrete examples.
+
+<div style="display:flex;flex-wrap:wrap;gap:16px;margin:16px 0 20px;">
+  <img src="/images/kjv-screenshots/marketing-b/reflection.webp" alt="KJV reflection screen" loading="lazy" decoding="async" style="width:min(100%,220px);height:auto;border-radius:16px;" />
+  <img src="/images/kjv-screenshots/marketing-b/emotion.webp" alt="KJV emotion-based devotional screen" loading="lazy" decoding="async" style="width:min(100%,220px);height:auto;border-radius:16px;" />
+  <img src="/images/kjv-screenshots/marketing-b/prayer.webp" alt="KJV prayer screen" loading="lazy" decoding="async" style="width:min(100%,220px);height:auto;border-radius:16px;" />
+</div>
+
+<p style="margin:-4px 0 20px;color:#64748b;font-size:0.95rem;">This is the larger product idea in visual form: Scripture can meet a person where they are, then open naturally into reflection and prayer rather than stopping at the verse itself.</p>
 
 In the current KJV devotional content, the app does not only store Bible text.
 
@@ -208,6 +218,10 @@ For **Bible KJV - Daily Devotional**, this kind of positioning makes a lot of se
 The app is not only trying to be a place to store the **KJV Bible**.
 
 It can also be a place that helps users move through real-life moments with Scripture.
+
+In other words, the product promise is not only "read the KJV."
+
+It is closer to: read, reflect, pray, and keep growing across the different hours of ordinary life.
 
 That is where its structure starts to make sense together:
 

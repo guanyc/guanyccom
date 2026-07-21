@@ -18,11 +18,23 @@ It is meant to help users understand not only what the app includes, but also wh
 - daytime emotion-based entry through **Take a Break**
 - evening rhythm, sleep audio, and richer reading plans
 
+The guiding idea is simple: the King James Bible, made for the different moments of a real day.
+
+Read. Pray. Reflect. Grow.
+
 <div class="flex flex-wrap items-center" style="gap:12px;margin:18px 0 6px">
   <a href="https://play.google.com/store/apps/details?id=com.gyc.ace.kjv" class="link db f6 pa2 br3 bg-mid-gray white dim tc" style="width:220px">Get it on Google Play</a>
   <a href="/kjv/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link ph2 pv1">Browse the KJV Bible</a>
   <a href="/posts/kjv-marketing/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link ph2 pv1">See all KJV articles</a>
 </div>
+
+<div style="display:flex;flex-wrap:wrap;gap:16px;margin:18px 0 22px;">
+  <img src="/images/kjv-screenshots/marketing-b/home.webp" alt="KJV home screen" loading="lazy" decoding="async" style="width:min(100%,220px);height:auto;border-radius:16px;" />
+  <img src="/images/kjv-screenshots/marketing-b/reflection.webp" alt="KJV reflection screen" loading="lazy" decoding="async" style="width:min(100%,220px);height:auto;border-radius:16px;" />
+  <img src="/images/kjv-screenshots/marketing-b/plans.webp" alt="KJV reading plans screen" loading="lazy" decoding="async" style="width:min(100%,220px);height:auto;border-radius:16px;" />
+</div>
+
+<p style="margin:-6px 0 18px;color:#64748b;font-size:0.95rem;">These screens show the shape of the product more clearly: daily entry, a word for the moment you are in, and plans that help spiritual rhythm grow over time.</p>
 
 ## Start Here
 
