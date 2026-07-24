@@ -6,9 +6,9 @@
 {{- $googlePlayUrl := or .Page.Params.google_play_url "TODO_FILL_GOOGLE_PLAY_LISTING_URL" -}}
 {{- $contactEmail := or .Page.Params.contact_email "TODO_FILL_CONTACT_EMAIL" -}}
 
-<div style="margin:18px 0 22px;padding:16px 18px;border:1px solid #cbd5e1;border-radius:16px;background:#f8fafc;">
-  <p style="margin:0 0 12px;font-size:0.95rem;color:#475569;"><strong>App And Developer Identity</strong></p>
-  <ul style="margin:0;padding-left:20px;">
+<div class="privacy-identity">
+  <p class="privacy-identity__title"><strong>App And Developer Identity</strong></p>
+  <ul class="privacy-identity__list">
     <li><strong>App / Store Listing Name:</strong> {{ $appStoreName }}</li>
     <li><strong>App Name In Policy:</strong> {{ $appDisplayName }}</li>
     <li><strong>Developer Name:</strong> {{ $developerName }}</li>
