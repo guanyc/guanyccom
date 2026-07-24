@@ -24,6 +24,7 @@ tags: ["all", "cuv", "bible", "devotional"]
   <a href="https://play.google.com/store/apps/details?id=com.gyc.ace.bible" class="link db f6 pa2 br3 bg-mid-gray white dim tc" style="width:220px">前往 Google Play</a>
   <a href="/cuv/help/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link ph2 pv1">和合本指南</a>
   <a href="/posts/cuv-marketing/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link ph2 pv1">和合本文章</a>
+  <a href="/privacy-cuv/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link ph2 pv1">隱私政策</a>
   <a href="/apps/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link ph2 pv1">查看全部 App</a>
 </div>
 
@@ -116,4 +117,4 @@ tags: ["all", "cuv", "bible", "devotional"]
 
 ## 隱私
 
-隱私政策：https://www.guanyc.com/privacy/
+隱私政策：https://www.guanyc.com/privacy-cuv/

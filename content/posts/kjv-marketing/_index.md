@@ -32,6 +32,12 @@ The larger idea behind these pages is simple: the KJV Bible made for the real mo
 
 <p style="margin:-6px 0 18px;color:#64748b;font-size:0.95rem;">Together these screens say what the article line is trying to say too: open the Bible easily, find what you need quickly, and let Scripture speak into whatever this day brings.</p>
 
+<div class="flex flex-wrap items-center" style="gap:12px;margin:18px 0 12px">
+  <a href="https://play.google.com/store/apps/details?id=com.gyc.ace.kjv" class="link db f6 pa2 br3 bg-mid-gray white dim tc" style="width:220px">Get it on Google Play</a>
+  <a href="/kjv/help/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link ph2 pv1">KJV Help & Guides</a>
+  <a href="/privacy/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link ph2 pv1">Privacy Policy</a>
+</div>
+
 ## Start Here
 
 If you are new to the KJV app content, these are the best first reads:
@@ -49,3 +55,7 @@ If you are new to the KJV app content, these are the best first reads:
   intro="This section collects the public KJV guides first. Draft planning notes and internal content strategy pages can stay behind the scenes while the article hub stays reader-friendly."
   limit="20"
 >}}
+
+## Privacy
+
+- [Bible KJV Privacy Policy](/privacy/)

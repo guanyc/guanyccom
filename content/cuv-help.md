@@ -21,6 +21,7 @@ tags: ["cuv", "chinese-bible", "devotional", "help", "guides"]
   <a href="https://play.google.com/store/apps/details?id=com.gyc.ace.bible" class="link db f6 pa2 br3 bg-mid-gray white dim tc" style="width:220px">前往 Google Play</a>
   <a href="/cuv/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link ph2 pv1">和合本 App 介紹</a>
   <a href="/posts/cuv-marketing/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link ph2 pv1">查看全部和合本文章</a>
+  <a href="/privacy-cuv/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link ph2 pv1">隱私政策</a>
 </div>
 
 ## 建議先看
@@ -97,3 +98,7 @@ tags: ["cuv", "chinese-bible", "devotional", "help", "guides"]
   intro="這些文章會繼續從比較貼近生活的角度來談：穩定的中文讀經、較安靜的靈修支持，以及一款常常回來使用的 App 為什麼更重要。"
   limit="8"
 >}}
+
+## 隱私
+
+- [和合本 App 隱私政策](/privacy-cuv/)

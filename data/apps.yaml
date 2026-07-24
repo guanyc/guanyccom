@@ -67,7 +67,7 @@ apps:
       promo: "/cuv/"
       help: "/cuv/help/"
       play: "https://play.google.com/store/apps/details?id=com.gyc.ace.bible"
-      privacy: "https://www.guanyc.com/privacy/"
+      privacy: "https://www.guanyc.com/privacy-cuv/"
       marketing: "/posts/cuv-marketing/"
 
   - key: rvr
@@ -85,7 +85,8 @@ apps:
       - "App directory slot prepared for a future RVR rollout"
       - "Supports separate promo, browser, and devotional entry points"
       - "Keeps information architecture aligned with KJV and CUV"
-    links: {}
+    links:
+      privacy: "https://www.guanyc.com/privacy-rvr/"
 
   - key: hanzinova
     name: "HanziNova: HSK Chinese Writing"

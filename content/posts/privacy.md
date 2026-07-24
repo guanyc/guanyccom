@@ -1,18 +1,30 @@
 ---
-
-title: 'Bible Privacy'
+title: 'Bible KJV Privacy Policy'
 date: Mon, 07 Sep 2020 00:12:00 +0000
 draft: false
-tags: ['all']
+tags: ['all', 'privacy', 'kjv']
 Author: [guanyc]
-
-aliases: ["/privacy"]
-
+url: "/privacy/"
+aliases: ["/privacy-kjv/"]
+app_store_name: "Bible KJV"
+app_display_name: "Bible KJV"
+developer_name: "Guan Yongchun"
+legal_entity: "Guan Yongchun"
+android_package: "com.gyc.ace.kjv"
+google_play_url: "https://play.google.com/store/apps/details?id=com.gyc.ace.kjv"
+contact_email: "yc.guan@gmail.com"
+review_note: "Verified against the Google Play listing title and developer profile."
 ---
 
 # Privacy Policy
 
-**Effective Date:** March 2, 2026
+**Effective Date:** July 24, 2026
+
+This Privacy Policy applies only to the mobile app identified below.
+
+The identifiers in this policy should match the Google Play store listing for this app, including the app name, developer name, legal entity, and package name.
+
+{{< privacy-identity >}}
 
 **Bible KJV** (“we”, “our”, or “the App”) values your privacy. This Privacy Policy explains how information is handled when you use our mobile application.
 

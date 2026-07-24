@@ -33,6 +33,13 @@ It is a KJV Bible made for every moment of your day.
 
 <p style="margin:-8px 0 24px;color:#64748b;font-size:0.95rem;">This opening set shows the larger KJV idea more clearly: a calm home, a readable Bible, a word for the moment you are in, and guided plans that help daily rhythm take root.</p>
 
+<div class="flex flex-wrap items-center" style="gap:12px;margin:18px 0 12px">
+  <a href="https://play.google.com/store/apps/details?id=com.gyc.ace.kjv" class="link db f6 pa2 br3 bg-mid-gray white dim tc" style="width:220px">Get it on Google Play</a>
+  <a href="/kjv/help/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link ph2 pv1">KJV Help & Guides</a>
+  <a href="/posts/kjv-marketing/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link ph2 pv1">KJV Articles</a>
+  <a href="/privacy/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link ph2 pv1">Privacy Policy</a>
+</div>
+
 ## 🙏 DAILY DEVOTIONAL — GUIDED THROUGH YOUR REAL LIFE
 
 - “How are you feeling today?” — discover verses that speak to your emotions
@@ -142,6 +149,10 @@ Free to use, with optional upgrades:
 Whether you're reading, reflecting, or searching for peace, this app helps you stay connected to God’s Word every day.
 
 Read. Reflect. Pray. Grow.
+
+## Privacy
+
+Privacy Policy: https://www.guanyc.com/privacy/
 
 ## Need help understanding how the KJV app is designed?
 

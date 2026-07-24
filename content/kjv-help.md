@@ -26,6 +26,7 @@ Read. Pray. Reflect. Grow.
   <a href="https://play.google.com/store/apps/details?id=com.gyc.ace.kjv" class="link db f6 pa2 br3 bg-mid-gray white dim tc" style="width:220px">Get it on Google Play</a>
   <a href="/kjv/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link ph2 pv1">Browse the KJV Bible</a>
   <a href="/posts/kjv-marketing/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link ph2 pv1">See all KJV articles</a>
+  <a href="/privacy/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link ph2 pv1">Privacy Policy</a>
 </div>
 
 <div style="display:flex;flex-wrap:wrap;gap:16px;margin:18px 0 22px;">
@@ -104,3 +105,7 @@ These are better when the user starts from a real-life need:
   intro="These articles explain the KJV app from different angles: offline Bible reading, devotional rhythm, guided plans, emotion-based entry, evening verse, and sleep audio."
   limit="12"
 >}}
+
+## Privacy
+
+- [Bible KJV Privacy Policy](/privacy/)
