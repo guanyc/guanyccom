@@ -2,6 +2,9 @@
 title: 'CUV Bible Privacy Policy'
 date: 2026-07-24T09:00:00+08:00
 draft: false
+noindex: true
+sitemap:
+  disable: true
 tags: ['all', 'privacy', 'cuv']
 Author: [guanyc]
 url: "/privacy-cuv/"

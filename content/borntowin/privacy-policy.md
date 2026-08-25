@@ -3,6 +3,9 @@ title: 'Win First Privacy Policy'
 date: Tue, 08 Sep 2020 12:20:28 +0000
 
 draft: false
+noindex: true
+sitemap:
+  disable: true
 tags: ['all','WinFirst']
 Author: [guanyc]
 aliases: ['/winfirst/privacy-policy']

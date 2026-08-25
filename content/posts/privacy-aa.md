@@ -2,6 +2,9 @@
 title: 'Bíblia AA Almeida Atualizada Privacy Policy'
 date: 2026-07-24T09:10:00+08:00
 draft: false
+noindex: true
+sitemap:
+  disable: true
 tags: ['all', 'privacy', 'aa']
 Author: [guanyc]
 url: "/privacy-aa/"

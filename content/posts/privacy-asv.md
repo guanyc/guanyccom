@@ -2,6 +2,9 @@
 title: 'Bible ASV - Holy Bible Privacy Policy'
 date: 2026-07-24T09:15:00+08:00
 draft: false
+noindex: true
+sitemap:
+  disable: true
 tags: ['all', 'privacy', 'asv']
 Author: [guanyc]
 url: "/privacy-asv/"

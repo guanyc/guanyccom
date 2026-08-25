@@ -2,6 +2,9 @@
 title: "Take a Break Privacy Policy"
 date: Fri, 06 Jun 2026 00:00:00 +0000
 draft: false
+noindex: true
+sitemap:
+  disable: true
 tags: ["all", "take-a-break"]
 Author: [guanyc]
 url: "/take-a-break/privacy/"

@@ -2,6 +2,9 @@
 title: 'Bible KJV Privacy Policy'
 date: Mon, 07 Sep 2020 00:12:00 +0000
 draft: false
+noindex: true
+sitemap:
+  disable: true
 tags: ['all', 'privacy', 'kjv']
 Author: [guanyc]
 url: "/privacy/"
