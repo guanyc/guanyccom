@@ -5,8 +5,12 @@
 {{- $androidPackage := or .Page.Params.android_package "TODO_FILL_ANDROID_PACKAGE_NAME" -}}
 {{- $googlePlayUrl := or .Page.Params.google_play_url "TODO_FILL_GOOGLE_PLAY_LISTING_URL" -}}
 {{- $contactEmail := or .Page.Params.contact_email "TODO_FILL_CONTACT_EMAIL" -}}
+{{- $launcherIcon := .Page.Params.launcher_icon -}}
 
 <div class="privacy-identity">
+  {{- if $launcherIcon -}}
+  <img class="privacy-identity__icon" src="{{ $launcherIcon }}" alt="{{ $appDisplayName }} icon" width="96" height="96">
+  {{- end -}}
   <p class="privacy-identity__title"><strong>App And Developer Identity</strong></p>
   <ul class="privacy-identity__list">
     <li><strong>App / Store Listing Name:</strong> {{ $appStoreName }}</li>

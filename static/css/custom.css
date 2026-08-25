@@ -277,10 +277,20 @@
   padding: 16px 18px;
 }
 
+.privacy-identity__icon {
+  border-radius: 18px;
+  box-shadow: 0 6px 20px rgba(15, 23, 42, 0.12);
+  display: block;
+  height: 96px;
+  margin: 0 auto 14px;
+  width: 96px;
+}
+
 .privacy-identity__title {
   color: #475569;
   font-size: 0.95rem;
   margin: 0 0 12px;
+  text-align: center;
 }
 
 .privacy-identity__list {

@@ -17,6 +17,7 @@ android_package: "com.gyc.ace.webu"
 google_play_url: "https://play.google.com/store/apps/details?id=com.gyc.ace.webu"
 contact_email: "yc.guan@gmail.com"
 review_note: "Verified against the Google Play listing title and developer profile."
+launcher_icon: "/images/launcher_icon-webu.webp"
 ---
 
 # Privacy Policy
