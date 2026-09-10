@@ -1,27 +1,27 @@
 ---
-title: 'Biblia RVR - Reina Valera Privacy Policy'
-date: 2026-07-24T09:05:00+08:00
+title: 'Bible KJV Quick Privacy Policy'
+date: 2026-09-10T09:00:00+08:00
 draft: false
 noindex: true
 sitemap:
   disable: true
-tags: ['all', 'privacy', 'rvr']
+tags: ['all', 'privacy', 'kjv', 'quick']
 Author: [guanyc]
-url: "/privacy-rvr/"
-aliases: ["/privacy-rvr"]
-app_store_name: "Biblia RVR - Reina Valera"
-app_display_name: "Biblia RVR - Reina Valera"
+url: "/privacy-quick/"
+aliases: ["/privacy-quick"]
+app_store_name: "Bible KJV Quick"
+app_display_name: "Bible KJV Quick"
 developer_name: "Guan Yongchun"
 legal_entity: "Guan Yongchun"
-android_package: "com.gyc.ace.esp"
-google_play_url: "https://play.google.com/store/apps/details?id=com.gyc.ace.esp"
+android_package: "com.gyc.ace.quick"
+google_play_url: "https://play.google.com/store/apps/details?id=com.gyc.ace.quick"
 contact_email: "yc.guan@gmail.com"
 review_note: "Verified against the Google Play listing title and developer profile."
 ---
 
 # Privacy Policy
 
-**Effective Date:** July 24, 2026
+**Effective Date:** September 10, 2026
 
 This Privacy Policy applies only to the mobile app identified below.
 
@@ -29,7 +29,7 @@ The identifiers in this policy should match the Google Play store listing for th
 
 {{< privacy-identity >}}
 
-**Biblia RVR - Reina Valera** (“we”, “our”, or “the App”) values your privacy. This Privacy Policy explains how information is handled when you use our mobile application.
+**Bible KJV Quick** (“we”, “our”, or “the App”) values your privacy. This Privacy Policy explains how information is handled when you use our mobile application.
 
 ## 1. Information We Collect
 
