@@ -21,7 +21,7 @@ review_note: "Verified against the Google Play listing title and developer profi
 
 # Privacy Policy
 
-**Effective Date:** September 10, 2026
+**Effective Date:** September 11, 2026
 
 This Privacy Policy applies only to the mobile app identified below.
 
@@ -47,7 +47,7 @@ The App may use **Google Firebase** to improve stability and user experience.
 ### c) Advertising
 The App may use **Google AdMob** to display advertisements.
 
-If ads are enabled, AdMob may automatically collect certain information to serve ads, including advertising ID, device information, IP address, and usage data.
+If ads are enabled, AdMob may automatically collect certain information to serve ads, including advertising ID, approximate location, device information, IP address, and usage data.
 
 For more information, please visit: [Google Privacy Policy](https://policies.google.com/privacy)
 
