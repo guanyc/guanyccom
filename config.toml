@@ -36,6 +36,12 @@ identifier = "cuv"
 url = "/cuv/"
 
 [[menu.main]]
+name = "Word Rhythm"
+weight = 50
+identifier = "word-rhythm"
+url = "https://wordrhythm.app"
+
+[[menu.main]]
 name = "Apps"
 weight = 50
 identifier = "apps"

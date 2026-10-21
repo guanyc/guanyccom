@@ -217,6 +217,12 @@
       {{- end }}
     </nav>
 
+    <p class="kjv-wr-note">
+      Reading the KJV chapter by chapter? The same text — with daily
+      devotionals, reading plans and Take a Break — lives at
+      <a href="https://wordrhythm.app">Word Rhythm</a>.
+    </p>
+
     <details class="kjv-book-switcher">
       <summary>Switch to another book</summary>
       <div class="kjv-book-switcher-body">
@@ -588,6 +594,22 @@
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+  }
+
+  .kjv-wr-note {
+    margin: 1.25rem 0 0;
+    padding: 0.85rem 1rem;
+    border-radius: 14px;
+    background: rgba(47, 91, 234, 0.05);
+    border: 1px solid rgba(47, 91, 234, 0.12);
+    color: #374151;
+    font-size: 0.95rem;
+    line-height: 1.6;
+  }
+
+  .kjv-wr-note a {
+    color: #2f5bea;
+    font-weight: 700;
   }
 
   .kjv-under-link:hover {
