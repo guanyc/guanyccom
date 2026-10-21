@@ -1,17 +1,18 @@
 # Bible content moved to Word Rhythm (https://wordrhythm.app).
 # Netlify reads this from the publish root, so Hugo copies it verbatim.
+# The trailing "!" forces the redirect even though the old page still exists
+# as a static file — without it Netlify serves the file and ignores the rule.
 
 # Guides that now live on the new site.
-/posts/fell-behind-bible-reading-plan-take-a-break/  https://wordrhythm.app/blog/fell-behind-bible-reading-plan-take-a-break/  301
-/posts/kjv-bible-app-daily-devotional-features/     https://wordrhythm.app/blog/kjv-bible-app-daily-devotional-features/     301
+/posts/fell-behind-bible-reading-plan-take-a-break/  https://wordrhythm.app/blog/fell-behind-bible-reading-plan-take-a-break/  301!
+/posts/kjv-bible-app-daily-devotional-features/     https://wordrhythm.app/blog/kjv-bible-app-daily-devotional-features/     301!
 
 # Privacy policies, one per app, now hosted on the new site.
-/privacy/                                            https://wordrhythm.app/privacy/kjv   301
-/privacy-aa/                                         https://wordrhythm.app/privacy/aa    301
-/privacy-asv/                                        https://wordrhythm.app/privacy/asv   301
-/privacy-cuv/                                        https://wordrhythm.app/privacy/cuv   301
-/privacy-rvr/                                        https://wordrhythm.app/privacy/rvr   301
-/privacy-take-a-break/                               https://wordrhythm.app/privacy/take-a-break  301
-/posts/privacy-take-a-break/                         https://wordrhythm.app/privacy/take-a-break  301
-/take-a-break/privacy/                               https://wordrhythm.app/privacy/take-a-break  301
-/privacy-webu/                                       https://wordrhythm.app/privacy/web   301
+/privacy/                                            https://wordrhythm.app/privacy/kjv   301!
+/privacy-aa/                                         https://wordrhythm.app/privacy/aa    301!
+/privacy-asv/                                        https://wordrhythm.app/privacy/asv   301!
+/privacy-cuv/                                        https://wordrhythm.app/privacy/cuv   301!
+/privacy-rvr/                                        https://wordrhythm.app/privacy/rvr   301!
+/privacy-webu/                                       https://wordrhythm.app/privacy/web   301!
+/posts/privacy-take-a-break/                         https://wordrhythm.app/privacy/take-a-break  301!
+/take-a-break/privacy/                               https://wordrhythm.app/privacy/take-a-break  301!
