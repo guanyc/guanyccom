@@ -101,8 +101,9 @@ tags: ["cuv", "和合本", "sleep", "evening", "devotional", "rest"]
 
 如果你想找一款適合睡前、較安靜、能把人慢慢帶回經文與禱告裡的中文聖經 App，可以先從這裡開始：
 
-- [漢語和合本聖經 App](/cuv/)
+- [漢語和合本聖經 App](https://wordrhythm.app/versions/cuv)
 - [和合本指南](/cuv/help/)
 - [一天過得很緊，還能從哪裡開始讀聖經？](/posts/cuv-marketing/when-a-long-day-leaves-you-tense-where-can-you-start-in-the-bible/)
 - [為什麼中文聖經 App 應該安靜到足以陪你每天讀下去？](/posts/cuv-marketing/why-a-chinese-bible-app-should-feel-calm-enough-for-daily-reading/)
+- WordRhythm 和合本聖經 App: https://wordrhythm.app/versions/cuv
 - Google Play: https://play.google.com/store/apps/details?id=com.gyc.ace.bible

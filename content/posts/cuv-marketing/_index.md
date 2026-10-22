@@ -17,7 +17,7 @@ Author: ["guanyc"]
 
 ## 建議先看
 
-- [漢語和合本聖經 App](/cuv/)
+- [漢語和合本聖經 App](https://wordrhythm.app/versions/cuv)
 - [和合本指南](/cuv/help/)
 - [一款中文聖經 App，為什麼要讓人更容易回來？](/posts/cuv-marketing/what-makes-a-chinese-bible-app-easier-to-return-to/)
 - [為什麼中文聖經 App 應該安靜到足以陪你每天讀下去？](/posts/cuv-marketing/why-a-chinese-bible-app-should-feel-calm-enough-for-daily-reading/)

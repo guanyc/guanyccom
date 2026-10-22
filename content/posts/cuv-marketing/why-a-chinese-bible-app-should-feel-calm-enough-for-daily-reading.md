@@ -126,7 +126,8 @@ tags: ["cuv", "chinese-bible", "daily-reading", "bible-app", "和合本"]
 
 如果你想找一款更安靜、也有靈修支持的 **中文聖經 / 和合本** App，可以先從這幾個入口開始：
 
-- [漢語和合本聖經 App](/cuv/)
+- [漢語和合本聖經 App](https://wordrhythm.app/versions/cuv)
 - [和合本指南](/cuv/help/)
 - [和合本文章與指南](/posts/cuv-marketing/)
+- WordRhythm 和合本聖經 App: https://wordrhythm.app/versions/cuv
 - Google Play: https://play.google.com/store/apps/details?id=com.gyc.ace.bible

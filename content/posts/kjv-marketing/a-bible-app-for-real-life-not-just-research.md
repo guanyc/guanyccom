@@ -274,9 +274,10 @@ It keeps Scripture near not only in study time, but also in ordinary need.
 
 If you want a **KJV Bible app** built for both **Bible reading** and **real-life devotional use**:
 
-- Read more about devotional features: [/posts/kjv-bible-app-daily-devotional-features/](/posts/kjv-bible-app-daily-devotional-features/)
-- Read this related piece: [/posts/kjv-marketing/what-do-people-need-from-a-bible-app-today/](/posts/kjv-marketing/what-do-people-need-from-a-bible-app-today/)
-- Browse the KJV online: [/kjv/](/kjv/)
+- Read more about devotional features: [/posts/kjv-bible-app-daily-devotional-features/](https://wordrhythm.app/blog/kjv-bible-app-daily-devotional-features)
+- Read this related piece: [/posts/kjv-marketing/what-do-people-need-from-a-bible-app-today/](https://wordrhythm.app/blog/what-do-people-need-from-a-bible-app-today)
+- Browse the KJV online: [/kjv/](https://wordrhythm.app/versions/kjv)
+- Read the KJV app on Word Rhythm: https://wordrhythm.app/versions/kjv
 - Google Play: https://play.google.com/store/apps/details?id=com.gyc.ace.kjv
 
 A Bible app should help with study when study is needed.

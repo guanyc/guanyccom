@@ -160,8 +160,9 @@ It should carry direction, rhythm, and enough grace to let people step back in.
 
 If you want a **KJV Bible app** with richer **Bible reading plans** and devotional support:
 
-- Read about devotional features: [/posts/kjv-bible-app-daily-devotional-features/](/posts/kjv-bible-app-daily-devotional-features/)
-- Browse the KJV online: [/kjv/](/kjv/)
+- Read about devotional features: [/posts/kjv-bible-app-daily-devotional-features/](https://wordrhythm.app/blog/kjv-bible-app-daily-devotional-features)
+- Browse the KJV online: [/kjv/](https://wordrhythm.app/versions/kjv)
+- Read the KJV app on Word Rhythm: https://wordrhythm.app/versions/kjv
 - Google Play: https://play.google.com/store/apps/details?id=com.gyc.ace.kjv
 
 A reading plan can track where you are.

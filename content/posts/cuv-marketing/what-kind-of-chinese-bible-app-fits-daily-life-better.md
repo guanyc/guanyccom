@@ -72,8 +72,9 @@ tags: ["cuv", "中文聖經 app", "和合本", "daily reading", "devotional"]
 
 如果你希望找的是一款較適合每天使用、能完整讀經，也能提供靈修支持的中文聖經 App，可以先從這裡開始：
 
-- [漢語和合本聖經 App](/cuv/)
+- [漢語和合本聖經 App](https://wordrhythm.app/versions/cuv)
 - [和合本指南](/cuv/help/)
 - [為什麼中文聖經 App 應該安靜到足以陪你每天讀下去？](/posts/cuv-marketing/why-a-chinese-bible-app-should-feel-calm-enough-for-daily-reading/)
 - [如果最近常常提不起勁，怎麼重新回到聖經？](/posts/cuv-marketing/if-you-have-had-no-energy-lately-how-do-you-return-to-scripture-gently/)
+- WordRhythm 和合本聖經 App: https://wordrhythm.app/versions/cuv
 - Google Play: https://play.google.com/store/apps/details?id=com.gyc.ace.bible

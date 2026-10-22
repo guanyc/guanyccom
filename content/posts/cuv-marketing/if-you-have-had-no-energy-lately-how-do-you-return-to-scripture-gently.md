@@ -95,8 +95,9 @@ tags: ["cuv", "和合本", "fatigue", "return", "devotional", "habit"]
 
 如果你最近常常提不起勁，也想用比較低壓的方式重新回到聖經，可以先從這裡開始：
 
-- [漢語和合本聖經 App](/cuv/)
+- [漢語和合本聖經 App](https://wordrhythm.app/versions/cuv)
 - [和合本指南](/cuv/help/)
 - [一款中文聖經 App，為什麼要讓人更容易回來？](/posts/cuv-marketing/what-makes-a-chinese-bible-app-easier-to-return-to/)
 - [很累很亂的時候，聖經還能先給你一個安放的地方嗎？](/posts/cuv-marketing/when-you-feel-drained-and-scattered-scripture-can-still-give-you-a-place-to-land/)
+- WordRhythm 和合本聖經 App: https://wordrhythm.app/versions/cuv
 - Google Play: https://play.google.com/store/apps/details?id=com.gyc.ace.bible

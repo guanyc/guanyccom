@@ -78,8 +78,9 @@ tags: ["cuv", "睡前聖經", "睡前經文", "晚間靈修", "和合本"]
 
 如果你希望找一款在晚上也能比較安靜打開、適合睡前讀經與靈修的中文聖經 App，可以先從這裡開始：
 
-- [漢語和合本聖經 App](/cuv/)
+- [漢語和合本聖經 App](https://wordrhythm.app/versions/cuv)
 - [和合本指南](/cuv/help/)
 - [睡前如果心裡還是很滿，可以先讀什麼？](/posts/cuv-marketing/what-can-you-read-before-sleep-when-your-heart-still-feels-full/)
 - [每日靈修，為什麼同時有精簡版和詳實版會更好？](/posts/cuv-marketing/why-daily-devotional-works-better-when-it-has-both-a-compact-and-detailed-version/)
+- WordRhythm 和合本聖經 App: https://wordrhythm.app/versions/cuv
 - Google Play: https://play.google.com/store/apps/details?id=com.gyc.ace.bible

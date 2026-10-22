@@ -167,9 +167,10 @@ It has to be answered with real use.
 
 If you want a **KJV Bible app** that supports both **Bible reading** and **daily devotional life**:
 
-- Read more about devotional features: [/posts/kjv-bible-app-daily-devotional-features/](/posts/kjv-bible-app-daily-devotional-features/)
+- Read more about devotional features: [/posts/kjv-bible-app-daily-devotional-features/](https://wordrhythm.app/blog/kjv-bible-app-daily-devotional-features)
 - Read about gentler re-entry: [/posts/kjv-marketing/a-bible-app-should-help-you-come-back-after-missing-days/](/posts/kjv-marketing/a-bible-app-should-help-you-come-back-after-missing-days/)
-- Browse the KJV online: [/kjv/](/kjv/)
+- Browse the KJV online: [/kjv/](https://wordrhythm.app/versions/kjv)
+- Read the KJV app on Word Rhythm: https://wordrhythm.app/versions/kjv
 - Google Play: https://play.google.com/store/apps/details?id=com.gyc.ace.kjv
 
 People still need Bible study tools.

@@ -220,10 +220,11 @@ If you are looking for a **KJV Bible app** with **Christian sleep audio**, devot
 
 - Start from the article hub: [/posts/kjv-marketing/](/posts/kjv-marketing/)
 - See the KJV help page: [/kjv/help/](/kjv/help/)
-- Read more about devotional features: [/posts/kjv-bible-app-daily-devotional-features/](/posts/kjv-bible-app-daily-devotional-features/)
+- Read more about devotional features: [/posts/kjv-bible-app-daily-devotional-features/](https://wordrhythm.app/blog/kjv-bible-app-daily-devotional-features)
 - Read about short daily devotional rhythm: [/posts/kjv-marketing/why-a-daily-devotional-should-be-short-enough-for-real-life/](/posts/kjv-marketing/why-a-daily-devotional-should-be-short-enough-for-real-life/)
-- Read about what people need from a Bible app today: [/posts/kjv-marketing/what-do-people-need-from-a-bible-app-today/](/posts/kjv-marketing/what-do-people-need-from-a-bible-app-today/)
-- Browse the KJV online: [/kjv/](/kjv/)
+- Read about what people need from a Bible app today: [/posts/kjv-marketing/what-do-people-need-from-a-bible-app-today/](https://wordrhythm.app/blog/what-do-people-need-from-a-bible-app-today)
+- Browse the KJV online: [/kjv/](https://wordrhythm.app/versions/kjv)
+- Read the KJV app on Word Rhythm: https://wordrhythm.app/versions/kjv
 - Google Play: https://play.google.com/store/apps/details?id=com.gyc.ace.kjv
 
 Not all sleep audio helps people rest.

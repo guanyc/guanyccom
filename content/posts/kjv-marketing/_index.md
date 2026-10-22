@@ -42,10 +42,10 @@ The larger idea behind these pages is simple: the KJV Bible made for the real mo
 
 If you are new to the KJV app content, these are the best first reads:
 
-- [What Do People Need From a Bible App Today?](/posts/kjv-marketing/what-do-people-need-from-a-bible-app-today/)
-- [A Bible App for Real Life, Not Just Research](/posts/kjv-marketing/a-bible-app-for-real-life-not-just-research/)
-- [What Is the Best KJV Bible App for Offline Reading?](/posts/kjv-marketing/what-is-the-best-kjv-bible-app-for-offline-reading/)
-- [What Is Take a Break in a Bible App?](/posts/kjv-marketing/what-is-take-a-break-in-a-bible-app/)
+- [What Do People Need From a Bible App Today?](https://wordrhythm.app/blog/what-do-people-need-from-a-bible-app-today)
+- [A Bible App for Real Life, Not Just Research](https://wordrhythm.app/blog/a-bible-app-for-real-life-not-just-research)
+- [What Is the Best KJV Bible App for Offline Reading?](https://wordrhythm.app/blog/what-is-the-best-kjv-bible-app-for-offline-reading)
+- [What Is Take a Break in a Bible App?](https://wordrhythm.app/blog/what-is-take-a-break-in-a-bible-app)
 
 ## More Articles
 

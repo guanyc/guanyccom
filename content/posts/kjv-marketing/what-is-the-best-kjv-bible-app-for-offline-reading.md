@@ -150,8 +150,9 @@ For others, it is the combination of **stronger search + devotional support + ri
 
 If you want a **KJV Bible app** that supports both **offline reading** and **real-life devotional use**, try these next steps:
 
-- Browse Scripture online: [/kjv/](/kjv/)
-- Read more about devotional features: [/posts/kjv-bible-app-daily-devotional-features/](/posts/kjv-bible-app-daily-devotional-features/)
+- Browse Scripture online: [/kjv/](https://wordrhythm.app/versions/kjv)
+- Read more about devotional features: [/posts/kjv-bible-app-daily-devotional-features/](https://wordrhythm.app/blog/kjv-bible-app-daily-devotional-features)
+- Read the KJV app on Word Rhythm: https://wordrhythm.app/versions/kjv
 - Google Play: https://play.google.com/store/apps/details?id=com.gyc.ace.kjv
 
 The best KJV Bible app is the one that helps you return to Scripture easily, not only when life is quiet, but also when life is full.

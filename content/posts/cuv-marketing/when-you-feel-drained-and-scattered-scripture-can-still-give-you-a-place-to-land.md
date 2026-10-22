@@ -90,8 +90,9 @@ tags: ["cuv", "和合本", "chinese-bible", "stress", "devotional", "rest"]
 
 如果你最近常常覺得很累很亂，也想找一個比較溫和的方式回到聖經，可以先從這裡開始：
 
-- [漢語和合本聖經 App](/cuv/)
+- [漢語和合本聖經 App](https://wordrhythm.app/versions/cuv)
 - [和合本指南](/cuv/help/)
 - [為什麼中文聖經 App 應該安靜到足以陪你每天讀下去？](/posts/cuv-marketing/why-a-chinese-bible-app-should-feel-calm-enough-for-daily-reading/)
 - [一款中文聖經 App，為什麼要讓人更容易回來？](/posts/cuv-marketing/what-makes-a-chinese-bible-app-easier-to-return-to/)
+- WordRhythm 和合本聖經 App: https://wordrhythm.app/versions/cuv
 - Google Play: https://play.google.com/store/apps/details?id=com.gyc.ace.bible

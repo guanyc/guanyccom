@@ -79,8 +79,9 @@ tags: ["cuv", "聖經搜尋", "中文聖經", "主題查經", "和合本"]
 
 如果你希望找一款能從主題、關鍵詞或當下狀態幫助自己更快進入經文的中文聖經 App，可以先從這裡開始：
 
-- [漢語和合本聖經 App](/cuv/)
+- [漢語和合本聖經 App](https://wordrhythm.app/versions/cuv)
 - [和合本指南](/cuv/help/)
 - [當工作壓力和人際變化一起壓上來時，聖經能先給你什麼幫助？](/posts/cuv-marketing/when-work-stress-and-relationship-changes-pile-up-what-can-scripture-give-you-right-away/)
 - [心裡很煩、很難安靜下來的時候，可以先讀哪類經文？](/posts/cuv-marketing/when-your-heart-feels-noisy-and-you-cannot-settle-down-where-can-scripture-begin/)
+- WordRhythm 和合本聖經 App: https://wordrhythm.app/versions/cuv
 - Google Play: https://play.google.com/store/apps/details?id=com.gyc.ace.bible

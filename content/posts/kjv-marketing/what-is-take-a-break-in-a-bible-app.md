@@ -210,7 +210,8 @@ If you want a **KJV Bible app** with **daily devotional** support and a daytime 
 
 - Read more about Take a Break: [/take-a-break](/take-a-break)
 - Read a related article: [/posts/fell-behind-bible-reading-plan-take-a-break/](/posts/fell-behind-bible-reading-plan-take-a-break/)
-- Read more about devotional features: [/posts/kjv-bible-app-daily-devotional-features/](/posts/kjv-bible-app-daily-devotional-features/)
+- Read more about devotional features: [/posts/kjv-bible-app-daily-devotional-features/](https://wordrhythm.app/blog/kjv-bible-app-daily-devotional-features)
+- Read the KJV app on Word Rhythm: https://wordrhythm.app/versions/kjv
 - Google Play: https://play.google.com/store/apps/details?id=com.gyc.ace.kjv
 
 Some days spiritual consistency looks like reading a lot.

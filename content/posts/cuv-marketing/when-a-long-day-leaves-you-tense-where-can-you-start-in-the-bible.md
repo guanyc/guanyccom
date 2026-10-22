@@ -83,7 +83,8 @@ tags: ["cuv", "chinese-bible", "stress", "evening", "devotional", "和合本"]
 
 如果你想在一天很緊之後，用比較安靜的方式重新回到聖經，可以先從這裡開始：
 
-- [漢語和合本聖經 App](/cuv/)
+- [漢語和合本聖經 App](https://wordrhythm.app/versions/cuv)
 - [和合本指南](/cuv/help/)
 - [為什麼中文聖經 App 應該安靜到足以陪你每天讀下去？](/posts/cuv-marketing/why-a-chinese-bible-app-should-feel-calm-enough-for-daily-reading/)
+- WordRhythm 和合本聖經 App: https://wordrhythm.app/versions/cuv
 - Google Play: https://play.google.com/store/apps/details?id=com.gyc.ace.bible

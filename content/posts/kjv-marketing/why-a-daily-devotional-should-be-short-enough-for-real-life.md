@@ -249,9 +249,10 @@ If you want a **KJV Bible app** with **daily devotional** content designed for r
 
 - Start from the article hub: [/posts/kjv-marketing/](/posts/kjv-marketing/)
 - See the KJV help page: [/kjv/help/](/kjv/help/)
-- Read more here: [/posts/kjv-bible-app-daily-devotional-features/](/posts/kjv-bible-app-daily-devotional-features/)
+- Read more here: [/posts/kjv-bible-app-daily-devotional-features/](https://wordrhythm.app/blog/kjv-bible-app-daily-devotional-features)
 - Read about stronger Bible search: [/posts/kjv-marketing/what-makes-bible-search-more-useful-than-a-simple-keyword-box/](/posts/kjv-marketing/what-makes-bible-search-more-useful-than-a-simple-keyword-box/)
 - Read about bedtime devotional support: [/posts/kjv-marketing/what-makes-christian-sleep-audio-actually-help-you-fall-asleep/](/posts/kjv-marketing/what-makes-christian-sleep-audio-actually-help-you-fall-asleep/)
+- Read the KJV app on Word Rhythm: https://wordrhythm.app/versions/kjv
 - Google Play: https://play.google.com/store/apps/details?id=com.gyc.ace.kjv
 
 A daily devotional does not need to be long to be meaningful.

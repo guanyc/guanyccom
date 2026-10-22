@@ -155,8 +155,9 @@ It shows that the devotional layer is designed with more care.
 
 If you want a **KJV Bible app** with **daily devotional** rhythm, evening devotional support, and more thoughtful seasonal structure:
 
-- Read more about devotional features: [/posts/kjv-bible-app-daily-devotional-features/](/posts/kjv-bible-app-daily-devotional-features/)
-- Browse the KJV online: [/kjv/](/kjv/)
+- Read more about devotional features: [/posts/kjv-bible-app-daily-devotional-features/](https://wordrhythm.app/blog/kjv-bible-app-daily-devotional-features)
+- Browse the KJV online: [/kjv/](https://wordrhythm.app/versions/kjv)
+- Read the KJV app on Word Rhythm: https://wordrhythm.app/versions/kjv
 - Google Play: https://play.google.com/store/apps/details?id=com.gyc.ace.kjv
 
 An evening verse can be simple.

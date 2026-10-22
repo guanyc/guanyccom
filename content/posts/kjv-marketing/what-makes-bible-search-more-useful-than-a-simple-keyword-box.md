@@ -181,12 +181,13 @@ It shortens the distance between need and Scripture.
 
 If you want a **KJV Bible app** with stronger **Bible search** and a more usable devotional flow:
 
-- Browse the KJV online: [/kjv/](/kjv/)
+- Browse the KJV online: [/kjv/](https://wordrhythm.app/versions/kjv)
 - Start from the article hub: [/posts/kjv-marketing/](/posts/kjv-marketing/)
 - See the KJV help page: [/kjv/help/](/kjv/help/)
-- Read about devotional features: [/posts/kjv-bible-app-daily-devotional-features/](/posts/kjv-bible-app-daily-devotional-features/)
+- Read about devotional features: [/posts/kjv-bible-app-daily-devotional-features/](https://wordrhythm.app/blog/kjv-bible-app-daily-devotional-features)
 - Read about short devotional rhythm: [/posts/kjv-marketing/why-a-daily-devotional-should-be-short-enough-for-real-life/](/posts/kjv-marketing/why-a-daily-devotional-should-be-short-enough-for-real-life/)
-- Read about emotion-based re-entry: [/posts/kjv-marketing/what-is-take-a-break-in-a-bible-app/](/posts/kjv-marketing/what-is-take-a-break-in-a-bible-app/)
+- Read about emotion-based re-entry: [/posts/kjv-marketing/what-is-take-a-break-in-a-bible-app/](https://wordrhythm.app/blog/what-is-take-a-break-in-a-bible-app)
+- Read the KJV app on Word Rhythm: https://wordrhythm.app/versions/kjv
 - Google Play: https://play.google.com/store/apps/details?id=com.gyc.ace.kjv
 
 A simple keyword box can be helpful.
